@@ -80,16 +80,53 @@ body {
  <h1>Upload Meme</h1>
  <p>
  These memes that are uploaded will be added to the bot to be randomly picked to show up in the discord server after saying "meme" in chat
- https://html.com/input-type-file/
+ https://ctrlq.org/code/19747-google-forms-upload-files
  </p>
- <form action="upload.php" method="post" enctype="/form-data">
-    Select image to upload:
-    <input type="file" name="fileToUpload" id="fileToUpload">
-    <input type="submit" value="Upload Image" name="submit">
-  </form>
-   <p><a href="https://www.w3schools.com/php/php_file_upload.asp" target="_blank">Finish this</a></p>
-   </div>
-   </div>
+ <!-- Paste this into forms.html -->
+
+<!-- Text input fields -->
+<input id="name" type="text" placeholder="Your Name">
+<input id="email" type="email" placeholder="Your Email">
+<!-- File upload button -->
+<input id="file" type="file">
+<!-- Form submit button -->
+<button>Submit</button>
+<!-- Show Progress -->
+ 
+<!-- Add the jQuery library -->
+<script src="https://code.jquery.com/jquery.min.js"></script>
+
+<script>
+
+  var file, 
+      reader = new FileReader();
+
+  // Upload the file to Google Drive
+  reader.onloadend = function(e) {
+    google.script.run
+      .withSuccessHandler(showMessage)
+      .uploadFileToGoogleDrive(
+         e.target.result, file.name, 
+         $('input#name').val(), 
+         $('input#email').val()
+      );
+  };
+
+  // Read the file on form submit
+  function submitForm() {
+    file = $('#file')[0].files[0];
+    showMessage("Uploading file..");
+    reader.readAsDataURL(file);
+  }
+
+  function showMessage(e) {
+    $('#progress').html(e);
+  }
+
+</script>    
+    
+</div>
+</div>
 </div>   
 
 <div class="footer">
