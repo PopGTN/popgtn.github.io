@@ -21,6 +21,10 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+.icon {
+  overflow: hidden;
+  background-color: blue;
+}
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
@@ -59,14 +63,14 @@ topnav a:hover, a:active {
 }
 </style>
 </head>
- <body>
-
+<body>
+ <div class="icon"> 
+   <p></p>
+   <span style="padding-left:20px"><img src="icon.png" alt="Webicon" width="100" height="100"></span>
+ </div>
   
 <div class="topnav">
-   <div> 
-    <p></p>
-    <span style="padding-left:20px"><img src="icon.png" alt="Webicon" width="100" height="100"></span>
-   </div>
+
   <a href="http://www.useful.gq/index.html">Home</a>
   <a href="https://discordapp.com/api/oauth2/authorize?client_id=503307018141171714&permissions=8&scope=bot" target="_blank">Invite Bot</a>
   <a href="https://apps.appmarket24.in/apk/app839513.apk?v=5" class="btn yellowbutton" target="_blank">Download APP</a>
