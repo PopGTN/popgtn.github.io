@@ -1,3 +1,5 @@
+<html>
+<body>
 <?php
 // Initialize the session
 session_start();
