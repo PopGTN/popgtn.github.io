@@ -1,3 +1,4 @@
+<html>
 <?php
 //=======================================================================================================
 // Create new webhook in your Discord channel settings and copy&paste URL
@@ -28,3 +29,4 @@ $response = curl_exec( $ch );
 //echo $response;
 
 ?>
+</html>
