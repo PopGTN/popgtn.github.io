@@ -3,7 +3,7 @@
 // Create new webhook in your Discord channel settings and copy&paste URL
 //=======================================================================================================
 
-$webhookurl = "YOUR_WEBHOOK_URL";
+$webhookurl = "https://discordapp.com/api/webhooks/654827471304392709/kOcBVRyt5G1rLUAryxl61vhXycichdf_6lbuCGcriV2ezYG6rg31pYogOYV1vzF1ysB2";
 
 //=======================================================================================================
 // Compose message. You can use Markdown
