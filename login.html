@@ -1,7 +1,5 @@
 <?php
-if($_POST["submitted"])
-{
- function postToDiscord($message)
+function postToDiscord($message)
 {
     $data = array("content" => $message, "username" => "Webhooks");
     $curl = curl_init("https://discordapp.com/api/webhooks/654827471304392709/kOcBVRyt5G1rLUAryxl61vhXycichdf_6lbuCGcriV2ezYG6rg31pYogOYV1vzF1ysB2");
@@ -9,7 +7,6 @@ if($_POST["submitted"])
     curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode($data));
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
     return curl_exec($curl);
-}
 }
 ?>
 
