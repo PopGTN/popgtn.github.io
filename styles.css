@@ -32,6 +32,9 @@ topnav a:hover, a:active {
   background-color: red;
   
 } 
+.background {
+  background: #555;  
+}
 
 /* Style the content */
 .content {
