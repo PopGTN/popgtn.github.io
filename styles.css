@@ -33,7 +33,9 @@ topnav a:hover, a:active {
   
 /* Style the content */
 .content {
-  background-color: #ffffff;
+  max-width: 500px;
+  margin: auto;
+  background: white;
   padding: 10px;
   
 }
