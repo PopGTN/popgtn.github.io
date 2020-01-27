@@ -30,14 +30,16 @@ body {
 topnav a:hover, a:active {
   background-color: red;
 }
-  
+
+body {
+  background: #555;
+}  
 /* Style the content */
 .content {
   max-width: 500px;
   margin: auto;
   background: white;
-  padding: 10px;
-  
+  padding: 10px;  
 }
 
 /* Style the footer */
