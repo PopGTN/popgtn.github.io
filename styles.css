@@ -1,0 +1,45 @@
+{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.icon {
+  overflow: hidden;
+  background-color: #ff4d4d;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #f44336;
+}
+
+/* Style the topnav links */
+.topnav a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+topnav a:hover, a:active {
+  background-color: red;
+}
+  
+/* Style the content */
+.content {
+  background-color: #ffffff;
+  padding: 10px;
+  
+}
+
+/* Style the footer */
+.footer {
+  background-color: #999999;
+  padding: 10px;
+}
