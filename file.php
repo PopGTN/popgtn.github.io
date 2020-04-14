@@ -5,8 +5,7 @@ $font = 'Mojangles.ttf';
 
 
 header("Content-Type: image/png");
-// $im = @imagecreatefromjpeg('image.jpg')
-$im = @imagecreate(110, 20)
+$im = @imagecreatefromjpeg('image.jpg')
     or die("Cannot Initialize new GD image stream");
 
     $background_color = imagecolorallocate($im, 0, 0, 0);
