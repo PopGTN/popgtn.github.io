@@ -27,3 +27,4 @@ imagestring($im, 5, 10, 2,  "NOTHING ADDED", $text_color);
 imagepng($im);
 imagedestroy($im);
 }
+?>
