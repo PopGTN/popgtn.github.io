@@ -1,5 +1,6 @@
 <?php
-$text = $_GET[text];
+$text = $_GET["text"];
+if (isset($_GET["text"]) && !empty($_GET["text"])) {
 			$random0 = rand(1, 255);
 			$random1 = rand(1, 255);
 			$random2 = rand(1, 255);
