@@ -4,14 +4,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
   </head>
   <body>
-  <center>
     <h1 class="message" { width: 200%; height: 200%; }>Shorten your link</h1>
       <div { width: 200%; height: 200%; }>
           <input name="text" type="url" value  id="linkinput" placeholder="Paste a URL to shorten" >
           <input type="submit" id="myinput" value="Shorten">
       </div>
     <p id="message"></p>
- </center>
  <script>
 document.getElementById("myinput").onclick = function() {
   var link = document.getElementById("linkinput").value;
