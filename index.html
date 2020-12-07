@@ -44,7 +44,7 @@
 document.getElementById("myinput").onclick = function() {
   var link = document.getElementById("linkinput").value;
   var data = {
-    "domain":"YOUR_DOMAIN",
+    "domain":"useful.gq",
     "originalURL": link,
     "allowDuplicates":false }; 
  fetch('https://api.short.cm/links/public', {
@@ -52,7 +52,7 @@ document.getElementById("myinput").onclick = function() {
     headers: {
       'accept': 'application/json',
       'Content-Type': 'application/json',
-      'authorization': 'API_KEY'
+      'authorization': 'CVtszcMGX0TZA2IHxWrbfg4qu6rZ6vAp'
     },
     body: JSON.stringify(data)
   }) .then(function(response) {
