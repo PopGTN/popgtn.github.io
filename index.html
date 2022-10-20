@@ -1,73 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="description" content="PhantomHosting - Best Free Server hoster">
-  <meta name="keywords" content="Useful,discord bot,bot,Discord,Minecraft,Bot,Youtube,Website,website,Bot,discord,PopGoesTheNoob">
-  <meta name="author" content="Useful - Bot">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="stylesheet" href="styles.css">
-  <meta name="theme-color" content="#ffffff"> 
+    <meta charset="UTF-8">
+    <title>Joshua Mckenna's Website | This is a website about Joshua Mckenna</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+    </style>
 </head>
-  
-<title>Useful - A Useful Discord bot</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
- 
-</head>
-<body>
-<center>
- <div class="icon"> 
-   <p></p>
-   <img src="icon.png" alt="Webicon" width="210" height="100">
-   <p></p>
- </div>
-  
-<div class="topnav">
 
-  <a href="#">Home</a>
-  <a href="#">Link</a>
-  <a href="#" target="_blank">Link open in new tabe</a>
-  <a href="#">Link</a>
-  <span style="padding-left:100px"><a href="#">Login/SignUp</a></span>
-</div>
-<div class="background">  
- <div class="content">
-   <h1><u>Useful Link shortner</u></h1>
-         <div>
-          <input name="text" type="url" value  id="linkinput" placeholder="Paste a URL to shorten" >
-          <input type="submit" id="myinput" value="Shorten">
-      </div>
-    <p id="message"></p>
- <script>
-document.getElementById("myinput").onclick = function() {
-  var link = document.getElementById("linkinput").value;
-  var data = {
-    "domain":"useful.gq",
-    "originalURL": link,
-    "allowDuplicates":false }; 
- fetch('https://api.short.cm/links/public', {
-    method: 'post',
-    headers: {
-      'accept': 'application/json',
-      'Content-Type': 'application/json',
-      'authorization': 'CVtszcMGX0TZA2IHxWrbfg4qu6rZ6vAp'
-    },
-    body: JSON.stringify(data)
-  }) .then(function(response) {
-        return response.json();
-    }) 
-    .then(function(data){ 
-    document.getElementById("message").innerHTML = "Your short link is " + data.shortURL })
-    document.getElementById("linkinput").value='';
- }
-    </script>
- </div>
-</div> 
-</center>
-<div class="footer">
-  <p>Website Layout made by:PopGoesTheNoobs#5507 on Discord</p>
-</div>
+<body>
+<header>
+    <h1>About Joshua Mckenna </h1>
+</header>
+<nav>
+    <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li class="special"><a href="https://www.github.com/popgtn" target="_blank">My Projects</a></li>
+        <li><a href="gallary.html">My Photo's</a></li>
+        <li><a href="About-Me.html">About Me</a></li>
+    </ul>
+</nav>
+<section id="body">
+    <h2>About Me</h2>
+
+    <p>
+        Joshua Mckenna, who is he? Well, I am just a random guy who is 19 years old and loves making and
+        creating things from my imagination, starting from the time I was young and building things like a house
+        module out of lego... then switching to Minecraft. Eventually, I got into building and moderating
+        Minecraft servers like Lifeboat Network. I also ran my own Minecraft server called Swiftraid, a faction
+        server with its own custom plugins. In my free time, I also play Call of Duty on PS4 and a lot of other
+        games. I enjoy mountain biking, four-wheeling, snorkeling, and a lot more.
+
+    </p>
+    <section>
+        <h3>TEst </h3>
+        <p>test</p>
+    </section>
+</section>
+<aside>
+</aside>
+<footer>
+    <hr>
+    <p>
+        <a href="https://www.joshuamc.ca/" target="_blank">www.joshuamc.ca</a> © 2022 |
+        <small><strong>Email:</strong>&nbsp&nbsp<a href="mailto:email@joshuamc.ca" target="_blank">email@joshuamc.ca</a></small>
+    </p>
+</footer>
 </body>
 </html>

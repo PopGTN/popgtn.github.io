@@ -1,0 +1,22 @@
+html {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #00539f;
+    border: 16xp;
+}
+nav {
+background: chartreuse;
+    width:content-box;
+    border-bottom-right-radius: 10px;
+    border-bottom: #e90432;
+    color: #FFFFFF;
+}
+
+body > section {
+    width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
