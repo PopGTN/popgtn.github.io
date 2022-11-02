@@ -1,0 +1,105 @@
+/*
+CSS FILES NEED COMMENTS TOO!
+Author:
+Date:
+*/
+
+body {
+    font-family: 'Rock Salt', cursive,'helvetica neue', helvetica, arial, sans-serif;
+
+}
+h1 {
+    color:yellow;
+}
+p {
+    color:red;
+}
+
+.wonkaText {
+     color:blue;
+ }
+
+.purpleBorder{
+
+    border: 3px solid purple;
+}
+/* CONTAINER DIV */
+
+#container {
+    border: 4px solid red;
+    background-color: lightblue;
+    padding: 40px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+header {
+    /*border: 2px solid red;*/
+    padding:10px;
+    font-family: 'Roboto Slab', serif;
+    /*font-family: 'Nosifer', cursive;*/
+    /*font-family: 'Arimo', sans-serif;*/
+}
+footer {
+    border-top: 9px solid green;
+    margin-top:50px;
+    font-family: 'Arimo', sans-serif;
+}
+#header {
+
+    color:cadetblue;
+}
+/* NAV MENU CODE */
+#navMenu {
+    list-style-type:none;
+    text-align:center;
+}
+#navMenu li {
+    display:inline;
+    padding:0px;
+    text-align:center;
+}
+#navMenu a {
+    background-color: yellow;
+    padding:0px 30px 0px 30px;
+    margin-right: 10px;
+    border: 1px solid;
+    text-decoration: none;
+}
+#navMenu a:hover {
+    background-color: green;
+    color: white;
+}
+#navMenu a:active {
+    background-color: green;
+    color: red;
+}
+
+/* TABLE STYLES */
+#tableStyle {
+    width:100%;
+    border:1px solid;
+    border-collapse: collapse;
+}
+#tableStyle th{
+    width:10%;
+    border:1px solid;
+
+
+}
+#tableStyle td {
+    width:10%;
+    border-right:1px solid;
+
+}
+#tableStyle tr {
+    background-color: beige;
+}
+#tableStyle tr.alt {
+    background-color: lightseagreen;
+}
+.wonkaText {
+    color:yellowgreen;
+}
