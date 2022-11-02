@@ -1,23 +1,72 @@
+@font-face {font-family: 'Pixeltext';  src: url('Pixeltext.woff2') format('woff2'), url('Pixeltext.woff') format('woff');  font-weight: normal;  font-style: normal;}
+
+:root {
+    --navtextfont: "Pixeltext";
+}
+/*apply variables like var*/
+
 html {
     font-size: 16px;
     margin: 0px;
     font-family: "Open Sans", sans-serif;
 }
+
 body {
     margin: 0px;
 }
 
-Header {
-    display: compact;
-    background-color: #FF0000;
-    background-size: contain;
+header {
+    font-family: var(--navtextfont);
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
 
 }
+.title{
+    font-size: 50px;
+}
 
+nav {
+    font-family: var(--navtextfont);
+    position: relative;
+    background-color: #015470;
 
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+}
 
-/* Responsive navigation menu (for mobile devices) */
-@media screen and (max-width: 600px) {
+nav ul,li {
+    float-wrap: wrap;
+    display: inline-block;
+}
 
+.navLinks a:hover, a:active {
+    background-color: #00779b;
+}
+
+.navLinks  a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.body {
+
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+    overflow: hidden;
+    position: center;
+    bottom: 0;
+    width: 100%;
 }
 
