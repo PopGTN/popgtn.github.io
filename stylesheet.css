@@ -1,91 +1,79 @@
-@font-face {font-family: 'Pixeltext';  src: url('Pixeltext.woff2') format('woff2'), url('Pixeltext.woff') format('woff');  font-weight: normal;  font-style: normal;}
 
-
-@media screen and (min-width: 601px) {
-    div.example {
-        font-size: 80px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    div.example {
-        font-size: 30px;
-    }
-}
 :root {
     /*--navtextfont: "Pixeltext";*/
     --navtextfont: "Open Sans", sans-serif;;
 }
 
 /*apply variables like var*/
-
 html {
     font-size: 1vw;
-    margin: 0px;
     font-family: "Open Sans", sans-serif;
-
-
 }
-
-body {
-    margin: 0px;
-}
-
-header {
-    font-family: var(--navtextfont);
-    background-color: #f1f1f1;
-    text-align: center;
+body{    overflow: hidden;
+    position: fixed;
+    top: 0;
     width: 100%;
-
-}
-.title{
-    font-size: 3.5vw;
-}
-
+    margin: 0px;
+} 
 nav {
-    overflow: hidden;
-    font-family: var(--navtextfont);
-    position: relative;
     background-color: #015470;
+    display: inline-block;
+    font-family: var(--navtextfont);
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    color: #f2f2f2;
     top: 0;
     width: 100%;
 }
-
-nav ul,li {
-    display: inline-block;
-    block-size: available;
-}
-
-nav a:hover, a:active {
-    background-color: #00779b;
-}
-.navLinks{
-    margin-left: 1.5vw;
-    margin-right: 1.5vw;
-}
-.navLinks a {
+#SiteTitle a{
+    margin-left: 1vw;
     float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 0.875em 1em;
+    padding: 0.875vw 1vw;
     text-decoration: none;
     font-size: 1vw;
 }
-.main {
-    font-size: 1rem;
-    margin-top: 1vw;
-    height: 1500px; /* Used in this example to enable scrolling */
-}
-.body {
 
+#navLinks {
+    float: right;
+    display: inline-block;
+    font-family: var(--navtextfont);
 }
-footer text {
+
+
+#navLinks a:hover, a:active {
+    background-color: #00779b;
+}
+
+#navLinks a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0.875vw 1vw;
+    text-decoration: none;
+    font-size: 1vw;
+}
+footer {
     text-align: center;
     background: #ddd;
     margin-top: 20px;
-    position: center;
+    position: relative;
     bottom: 0;
     width: 100%
 }
-
+.footer {
+    padding-top: 2.5vw;
+    padding-bottom: 2.5vw;
+}
+.active{
+    background-color: #00779b;
+}
+#main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; /* Used in this example to enable scrolling */
+}
