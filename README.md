@@ -7,5 +7,5 @@ www.joshuamc.ca
 Found this cool little trick to allow scrolling in blocks/sections
 ```
     overflow-x: hidden;
-    overflow-y: auto;\
+    overflow-y: auto;
 ```

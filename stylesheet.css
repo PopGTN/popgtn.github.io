@@ -1,20 +1,38 @@
+@import url('https://fonts.cdnfonts.com/css/product-sans');
+
+@font-face {
+    font-family: 'Pixeltext';
+    src: url('fonts/Pixeltext.woff2') format('woff2'),
+    url('fonts/Pixeltext.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ProductSans';
+    src: url('fonts/productsans-regular-webfont.woff2') format('woff2'),
+    url('fonts/productsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 :root {
-    /*--navtextfont: "Pixeltext";*/
+
     --navtextfont: "Open Sans", sans-serif;;
 }
 
-/*apply variables like var*/
 html {
-    font-size: 1vw;
+    font-size: 1em;
     font-family: "Open Sans", sans-serif;
+    overflow-y: scroll;
 }
+
 body{    overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%;
+    position: absolute;
     margin: 0px;
-} 
+}
 nav {
     background-color: #015470;
     display: inline-block;
@@ -27,14 +45,19 @@ nav {
     width: 100%;
 }
 #SiteTitle a{
-    margin-left: 1vw;
+    margin-left: 1em;
     float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 0.875vw 1vw;
+    padding: 0.875em 1em;
     text-decoration: none;
-    font-size: 1vw;
+    /*font-family: "Pixeltext";*/
+    font-family: ProductSans;
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: uppercase;
+
 }
 
 #navLinks {
@@ -53,9 +76,9 @@ nav {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 0.875vw 1vw;
+    padding: 0.875em 1em;
     text-decoration: none;
-    font-size: 1vw;
+    font-size: 1em;
 }
 footer {
     text-align: center;
@@ -66,14 +89,89 @@ footer {
     width: 100%
 }
 .footer {
-    padding-top: 2.5vw;
-    padding-bottom: 2.5vw;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
 }
 .active{
     background-color: #00779b;
 }
-#main {
-    padding: 16px;
-    margin-top: 30px;
-    height: 1500px; /* Used in this example to enable scrolling */
+main {
+    scroll-behavior: smooth;
+}
+main > header{
+
+
+
+}
+main * {
+    box-sizing: border-box;
+
+}
+
+
+body {
+    font-family: Arial;
+    padding: 0px;
+    background: #f1f1f1;
+}
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
 }
