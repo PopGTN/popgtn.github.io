@@ -4,42 +4,36 @@
     <meta charset="UTF-8">
     <title>Joshua Mckenna's Website | This is a website about Joshua Mckenna</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="photos/IMG_1768-removebg-preview.png">
     <link rel="stylesheet" href="css/Navigation-Stylesheet.css">
-    <link rel="stylesheet" href="css/ListOfArticals.css">
+    <!--<link rel="stylesheet" href="css/ListOfArticals.css">-->
 </head>
 
 <style>
 </style>
 <body>
-<nav>
-    <span id="SiteTitle"><a href="index.html">Joshua Mckenna</a></span>
-    <div id="navLinks">
-        <a href="index.html" class="active">Home</a>
-        <a href="#">Projects</a>
-        <a href="contact.html">Contact</a>
-        <a href="#">Updates</a>
-        <a href="About-Me.html">About</a>
-    </div>
-</nav>
+<header>
+    <nav>
+        <span id="SiteTitle"><a href="index.html">Joshua Mckenna</a></span>
+        <ul id="navLinks">
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="github.joshuamc.ca">Projects</a></li>
+            <li><a href="contact.html" >Contact</a></li>
+            <li><a href="#" >Updates</a></li>
+            <li><a href="About-Me.html" >About</a></li>
+        </ul>
+    </nav>
+</header>
 <main>
     <div class="row">
-        <div class="rightcolumn">
-            <div class="card">
-                <div class="card">
-                    <h2>About Me</h2>
-                    <div class="fakeimg" style="height:100px;">Image</div>
-                    <p></p>
-                </div>
-                <div class="card">
-                    <h3></h3>
-                </div>
-                <div class="card">
-                    <h3>Follow Me</h3>
-                    <p>Some text..</p>
-                </div>
+        <div class="column side">
+            <div class="colume card">
+                <h2>About Me</h2>
+                <div class="fakeimg" style="height:100px;">Image</div>
+                <p></p>
             </div>
         </div>
-        <div class="main">
+        <section class="column middle">
             <div class="card">
                 <h2>Welcome first post</h2>
                 <h5>Title description, Oct 73 2022</h5>
@@ -47,8 +41,8 @@
                 <p>Some text..</p>
                 <p></p>
             </div>
-        </div>
-        <div class="leftcolume">
+        </section>
+        <div class="column side">
             <div class="card">
                 <h2>Other Links</h2>
                 <div class="fakeimg" style="height:100px;">Image</div>
@@ -57,10 +51,10 @@
         </div>
     </div>
 </main>
-    <footer class="footer">
-        <small><a href="https://www.joshuamc.ca/" target="_blank">www.joshuamc.ca</a> Copyright © 2022</small> |
-        <small><strong>Email:</strong>&nbsp&nbsp<a href="mailto:email@joshuamc.ca"
-                                                   target="_blank">email@joshuamc.ca</a></small>
-    </footer>
+<footer class="footer">
+    <small><a href="https://www.joshuamc.ca/" target="_blank">www.joshuamc.ca</a> Copyright © 2022</small> |
+    <small>Email:&nbsp&nbsp<a href="mailto:email@joshuamc.ca"
+                              target="_blank">email@joshuamc.ca</a></small>
+</footer>
 </body>
 </html>
