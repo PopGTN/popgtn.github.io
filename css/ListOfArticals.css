@@ -12,21 +12,14 @@ main {
 
 
 .column.side  {
-    width: 20%
-    float: left;
+    width: 20%;
 }
 
 
 .column.middle {
-    width: 10%;
+    width: 60%;
 }
-.column.middle > h2 {
-    padding-bottom: 0px;
-    padding-top: 0px;
-}
-.column.middle > h5 {
-    margin-bottom: -0.5px;
-}
+
 
 .row:after {
     content: "";
