@@ -1,0 +1,133 @@
+@import url('https://fonts.cdnfonts.com/css/product-sans');
+
+@font-face {
+    font-family: 'Pixeltext';
+    src: url('fonts/Pixeltext.woff2') format('woff2'),
+    url('fonts/Pixeltext.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ProductSans';
+    src: url('fonts/productsans-regular-webfont.woff2') format('woff2'),
+    url('fonts/productsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --webtitlefont: jokerman/*, Pixeltext,*/, sans-serif !important;
+    --navtextfont:/* Pixeltext,*/, sans-serif !important;
+    --maintextfont: "Open Sans", sans-Serif !important;
+
+}
+
+html {
+    font-size: 1em;
+    font-family: var(--maintextfont);
+    overflow-y: scroll;
+}
+
+body {
+    top: 0;
+    width: 100%;
+    margin: 0px;
+    background-image: url("../photos/BackAround-256x256x8.png");
+    background-color: #f2f2f2;
+    background-size:  40px 40px;
+    background-position-x: 10px;
+    background-repeat: repeat;
+
+ }
+header{
+    block-size: border-box;
+    overflow: hidden;
+    background-color: #0086b6;
+}
+nav {
+/*    background-image: url("../photos/IMG_1768-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size:  40px 40px;
+    background-color: #0086b6;*/
+    display: block;
+    overflow: hidden;
+    font-family: var(--navtextfont);
+    text-align: center;
+    position: sticky;
+    color: #f2f2f2;
+    top: 0px;
+}
+header > image {
+
+}
+
+#SiteTitle a {
+    float: left;
+    display: block;
+    position: relative;
+    color: #f2f2f2;
+    margin-top: 0.4em;
+    margin-left: 5em;
+    /*margin-top: em;*/
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--webtitlefont);
+    font-weight: bold;
+    font-size: 1.5em;
+    text-transform: uppercase;
+
+}
+
+#navLinks {
+    float: right;
+    list-style: none;
+    display: inline-block;
+    font-family: var(--navtextfont);
+}
+
+#navLinks li {
+    display: inline-flex;
+    text-align: center;
+
+}
+
+nav ul {
+    margin: 0px;
+    margin-right: 1em;
+
+}
+
+#navLinks a:hover, a:active {
+    background-color: #00779b;
+}
+
+#navLinks a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0.875em 1em;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+footer {
+    text-align: center;
+    background-color: #0086b6;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+    text-underline-style: none;
+}
+
+.active {
+    background-color: #00779b;
+}

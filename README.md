@@ -1,2 +1,5 @@
-# normalocean6686.github.io
-This is a website build by on PopGoesTheNoobs Feel free to use the sitemap!Discord PopGoesTheNoobs#5507
+# popgtn.github.io
+
+I'm currently relearning HTML and CSS. This website I'm build my own personal website for practice by applying things I learned in class to my website for practice
+www.joshuamc.ca
+
