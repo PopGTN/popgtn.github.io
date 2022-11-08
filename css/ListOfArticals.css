@@ -11,15 +11,14 @@ main {
 }
 
 
-.column.side  {
-    width: 20%;
+.column.side {
+    width: 20vh;
 }
 
 
 .column.middle {
-    width: 60%;
+    width: 60vh;
 }
-
 
 .row:after {
     content: "";
@@ -30,9 +29,10 @@ main {
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
     .column.side, .column.middle {
-        width: 100%;
+        width: 100vh;
     }
 }
+
 /* Fake image */
 .fakeimg {
     background-color: #aaa;
@@ -50,6 +50,6 @@ main {
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
     .column.side, .column.middle {
-        width: 100%;
+        width: 100vh;
     }
 }

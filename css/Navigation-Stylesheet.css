@@ -19,7 +19,7 @@
 
 :root {
     --webtitlefont: jokerman/*, Pixeltext,*/, sans-serif !important;
-    --navtextfont:/* Pixeltext,*/, sans-serif !important;
+    --navtextfont:/* Pixeltext,*/ sans-serif !important;
     --maintextfont: "Open Sans", sans-Serif !important;
 
 }
@@ -27,12 +27,12 @@
 html {
     font-size: 1em;
     font-family: var(--maintextfont);
-    overflow-y: scroll;
+
 }
 
 body {
-    top: 0;
-    width: 100%;
+    /*top: 0;*/
+    width: 100vh;
     margin: 0px;
     background-image: url("../photos/BackAround-256x256x8.png");
     background-color: #f2f2f2;
@@ -40,10 +40,12 @@ body {
     background-position-x: 10px;
     background-repeat: repeat;
 
+    position: absolute;
+    min-height: 100vh;
+
  }
 header{
     block-size: border-box;
-    overflow: hidden;
     background-color: #0086b6;
 }
 nav {
@@ -70,7 +72,7 @@ header > image {
     color: #f2f2f2;
     margin-top: 0.4em;
     margin-left: 5em;
-    /*margin-top: em;*/
+
     text-align: center;
     text-decoration: none;
     font-family: var(--webtitlefont);
@@ -112,18 +114,21 @@ nav ul {
     text-decoration: none;
     font-size: 1em;
 }
-
+main {
+}
 footer {
     text-align: center;
-    background-color: #0086b6;
+    background-color: #015470;
+    color: #fff;
+    padding: 20px;
+    position: absolute;
     bottom: 0;
-    position: relative;
     width: 100%;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+    /* position: fixed;
+    z-index: 1; */
 }
 footer a{
-    color: black;
+    color: #ffffff;
     text-decoration: none;
     text-underline-style: none;
 }
