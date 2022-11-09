@@ -1,20 +1,28 @@
+@import '/css/Navigation-Stylesheet.css';
+
 main * {
     box-sizing: border-box;
 
 }
 
 main {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: stretch
 }
 
-.row {
-    display: -ms-flexbox;
-    flex-direction: row;
-
+#middle{
+    width: 100%;
 }
+
+aside {
+    with:25%;
+}
+
 
 /* Add a card effect for articles */
 .card {
-    position: relative;
     background-color: white;
     padding: 20px;
 }

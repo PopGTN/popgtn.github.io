@@ -1,28 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/product-sans');
-
-@font-face {
-    font-family: 'Pixeltext';
-    src: url('fonts/Pixeltext.woff2') format('woff2'),
-    url('fonts/Pixeltext.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'ProductSans';
-    src: url('fonts/productsans-regular-webfont.woff2') format('woff2'),
-    url('fonts/productsans-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-:root {
-    --webtitlefont: jokerman/*, Pixeltext,*/, sans-serif !important;
-    --navtextfont:/* Pixeltext,*/ sans-serif !important;
-    --maintextfont: "Open Sans", sans-Serif !important;
-
-}
+@import '/css/Styling-Config.css';
 
 html {
     font-size: 1em;
@@ -35,12 +11,9 @@ body {
     /*top: 0;*/
     width: 100vw;
     margin: 0px;
-    background-image: url("../photos/BackAround-256x256x8.png");
+    background-image: var(--mainbodyimage);
     background-color: #f2f2f2;
-    background-size:  40px 40px;
-    background-position-x: 10px;
-    background-repeat: repeat;
-
+    background-size:  10vw 10vw;
     position: absolute;
     min-height: 100vh;
 
@@ -48,22 +21,23 @@ body {
  }
 header{
     block-size: border-box;
-    background-color: #0086b6;
+    background-image: var(--imageHeader);
+    background-size: var(--imageHeaderSize);
+    background-repeat: repeat-x;
+    background-color: var(--navBkGrdColour);
+    position: sticky;
+    top: 0;
 }
 nav {
-/*    background-image: url("../photos/IMG_1768-removebg-preview.png");
-    background-repeat: no-repeat;
-    background-size:  40px 40px;
-    background-color: #0086b6;*/
     display: block;
     overflow: hidden;
     font-family: var(--navtextfont);
     text-align: center;
     position: sticky;
-    color: #f2f2f2;
+    color: var(--navTextColour);
     top: 0px;
 }
-header > image {
+header {
 
 }
 
@@ -71,9 +45,9 @@ header > image {
     float: left;
     display: block;
     position: relative;
-    color: #f2f2f2;
-    margin-top: 0.4em;
-    margin-left: 5em;
+    color: var(--webtitleColour);
+    margin-top: 0.3vw;
+    margin-left: 5vw;
 
     text-align: center;
     text-decoration: none;
@@ -99,7 +73,7 @@ header > image {
 
 nav ul {
     margin: 0px;
-    margin-right: 1em;
+    margin-right: 1vw;
 
 }
 

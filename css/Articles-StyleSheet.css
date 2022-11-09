@@ -1,3 +1,5 @@
+@import '/css/Navigation-Stylesheet.css';
+
 div * {
     box-sizing: border-box;
 }
@@ -15,12 +17,15 @@ body {
 
 /* Left and right column */
 .column.side {
-    width: 25%;
+    /*background-color: #896c58;*/
+    color: white;
+    width: 20%;
 }
 
 /* Middle column */
 .column.middle {
-    width: 50%;
+    background-color: white;
+    width: 60%;
 }
 
 /* Clear floats after the columns */
@@ -35,7 +40,4 @@ body {
     .column.side, .column.middle {
         width: 100%;
     }
-}
-main{
-    padding: 0px!important;
-}
+}r

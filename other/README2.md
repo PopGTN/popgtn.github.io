@@ -47,3 +47,11 @@ backaround-image:(Image1, image2);
 </body>
 </html>
 ````
+### backaround Shading on photo 
+````
+    background-image: linear-gradient(
+            to bottom,
+            rgba(255, 255, 0, 0.5),
+            rgba(0, 0, 255, 0.5)
+    ), url("../photos/grass_blackground_around_ 512x512.png");
+````

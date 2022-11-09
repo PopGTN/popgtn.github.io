@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Pixeltext';
+    src: url('fonts/Pixeltext.woff2') format('woff2'),
+    url('fonts/Pixeltext.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ProductSans';
+    src: url('fonts/productsans-regular-webfont.woff2') format('woff2'),
+    url('fonts/productsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+
+    /*Having hard time to choose colors so Im using Variables to set them*/
+    /*Website title on navbar*/
+    --imageHeader: url("/css/photos/grass_blackground_around_ 512x512.png");
+    --imageHeaderSize: 1vw 10vw;
+    --navBkGrdColour: #0086b6;
+    --webtitleColour: #f2f2f2;
+    --webtitlefont: jokerman, sans-serif;
+
+
+    /*Navbar buttons*/
+    --navtextfont: Pixeltext, sans-serif !important;
+    --navtextColour: #f2f2f2;
+    /*Main cont*/
+    --maintextfont: "Open Sans", sans-Serif !important;
+    --mainbodyimage: url("/css/photos/BackAround-256x256x8.png")
+
+}
