@@ -21,9 +21,9 @@ body {
  }
 header{
     block-size: border-box;
-    background-image: var(--imageHeader);
-    background-size: var(--imageHeaderSize);
-    background-repeat: repeat-x;
+    background-image: var(--imageNavBar);
+    background-size: var(--imageNavBarSize);
+    background-repeat: var(--imageNavBarRepeat);
     background-color: var(--navBkGrdColour);
     position: sticky;
     top: 0;

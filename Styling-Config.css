@@ -1,15 +1,38 @@
-@import '/css/fonts.css';
+/*
+ ▄█▀▀█ ▐█▀▀ █▀█▀█ █▀█▀█ ▐██ ██▄  █▌ ▐█▀▀▀─ ▄█▀▀█      ▐█▀▀ ▐█▀▀█▌ ▐█▀▀▄      █▀█▀█ ▐█ ▐█ ▐█▀▀      █   ▄   █ ▐█▀▀ ▐█▀▄─ ▄█▀▀█ ▐██ █▀█▀█ ▐█▀▀
+ ▀▀█▄▄ ▐█▀▀   █     █  ─ █▌ ▐█ █ █  ▐█ ▀█▌ ▀▀█▄▄      ▐█▀▀ ▐█▄ █▌ ▐█ ▐█        █   ▐████ ▐█▀▀      █   █   █ ▐█▀▀ ▐█▀▀▄ ▀▀█▄▄─ █▌   █   ▐█▀▀
+ █▄▄█▀ ▐█▄▄  ▄█▄   ▄█▄  ▐██ ██  ██▌ ▐██▄█▌ █▄▄█▀      ▐█── ▐██▄█▌ ▐█▀▄▄       ▄█▄  ▐█ ▐█ ▐█▄▄       ▀▄▀ ▀▄▀  ▐█▄▄ ▐█▄▄▀ █▄▄█▀ ▐██  ▄█▄  ▐█▄▄
+ */
 
+
+/*Custom Font Down below*/
+@font-face {
+    font-family: 'Pixeltext';
+    src: url('css/fonts/Pixeltext.woff2') format('woff2'),
+    url('css/fonts/Pixeltext.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ProductSans';
+    src: url('css/fonts/productsans-regular-webfont.woff2') format('woff2'),
+    url('css/fonts/productsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*Customize Colours and backgrounds */
 :root {
-
     /*Having hard time to choose colors so Im using Variables to set them*/
     /*Website title on navbar*/
-    --imageHeader: url("/css/photos/grass_blackground_around_ 512x512.png");
-    --imageHeaderSize: 10px 10px;
+    --imageNavBar: url("/css/photos/grass_blackground_around_ 512x512.png");
+    --imageNavBarSize: contain;
+    --imageNavBarRepeat: 10% 10%;
     --navBkGrdColour: #0086b6;
+
+    /*Custom Title*/
     --webtitleColour: #f2f2f2;
     --webtitlefont: jokerman, sans-serif;
-
 
     /*Navbar buttons*/
     --navtextfont: Pixeltext, sans-serif !important;
@@ -17,5 +40,4 @@
     /*Main cont*/
     --maintextfont: "Open Sans", sans-Serif !important;
     --mainbodyimage: url("/css/photos/BackAround-256x256x8.png")
-
 }
