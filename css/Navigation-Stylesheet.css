@@ -12,8 +12,9 @@ body {
     width: 100vw;
     margin: 0px;
     background-image: var(--mainbodyimage);
-    background-color: #f2f2f2;
-    background-size:  10vw 10vw;
+    background-color: var(--mainSecondaryBkGrColor);
+    background-size:  var(--mainImageSize);
+    background-repeat:  var(--mainImageRepeat);
     position: absolute;
     min-height: 100vh;
 
@@ -78,7 +79,7 @@ nav ul {
 }
 
 #navLinks a:hover, a:active {
-    background-color: #00779b;
+    background-color: var(--HoverColour);
 }
 
 #navLinks a {
@@ -91,11 +92,12 @@ nav ul {
     font-size: 1em;
 }
 main {
+    color: var(--mainTextColour);
 }
 footer {
     text-align: center;
-    background-color: #015470;
-    color: #fff;
+    background-color: var(--FootBackaroundColor);
+    color: var(--FootTextColour);
     padding: 20px;
     position: absolute;
     bottom: 0;
@@ -104,7 +106,7 @@ footer {
     z-index: 1; */
 }
 footer a{
-    color: #ffffff;
+    color: var(--FootTextColour);
     text-decoration: none;
     text-underline-style: none;
 }

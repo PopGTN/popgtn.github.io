@@ -27,7 +27,7 @@
     /*Website title on navbar*/
     --imageNavBar: url("/css/photos/grass_blackground_around_ 512x512.png");
     --imageNavBarSize: contain;
-    --imageNavBarRepeat: 10% 10%;
+    --imageNavBarRepeat: repeat-x;
     --navBkGrdColour: #0086b6;
 
     /*Custom Title*/
@@ -37,7 +37,22 @@
     /*Navbar buttons*/
     --navtextfont: Pixeltext, sans-serif !important;
     --navtextColour: #f2f2f2;
+    --HoverColour: #00779b;
+
+
     /*Main cont*/
-    --maintextfont: "Open Sans", sans-Serif !important;
-    --mainbodyimage: url("/css/photos/BackAround-256x256x8.png")
+    --mainTextFont: "Open Sans", sans-Serif !important;
+    --mainTextColour: white;
+    --mainbodyimage: url("/css/photos/BackAround-256x256.png");
+    --mainImageSize: 10vw 10vw;
+    --mainBackGroundColor: #896c58;
+    --mainImageRepeat: repeat;
+
+    /*Side parts of Main*/
+    --mainSecondaryBkGrColor: #896c58;
+    --mainSecondaryTextColor: white;
+
+    /*Footer*/
+    --FootBackaroundColor: #015470;
+    --FootTextColour: #ffffff;
 }

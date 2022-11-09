@@ -17,14 +17,15 @@ body {
 
 /* Left and right column */
 .column.side {
-    /*background-color: #896c58;*/
-    color: white;
+    background-color: var(--mainSecondaryBkGrColor);
+    color: var(--mainSecondaryTextColor);
     width: 20%;
 }
 
 /* Middle column */
 .column.middle {
-    background-color: white;
+    background-color: var(--mainBackGroundColor);
+    color: var(--mainTextColour);
     width: 60%;
 }
 
