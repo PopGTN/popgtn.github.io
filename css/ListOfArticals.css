@@ -6,37 +6,9 @@ main * {
 main {
 }
 
-.column {
-    float: left;
-}
-
-
-.column.side {
-    width: 20vw;
-}
-
-
-.column.middle {
-    width: 60vw;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column.side, .column.middle {
-        width: 100vw;
-    }
-}
-
-/* Fake image */
-.fakeimg {
-    background-color: #aaa;
-    width: 100%;
+.row {
+    display: -ms-flexbox;
+    flex-direction: row;
 
 }
 

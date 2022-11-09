@@ -27,6 +27,7 @@
 html {
     font-size: 1em;
     font-family: var(--maintextfont);
+    overflow-x: hidden;
 
 }
 
@@ -42,6 +43,7 @@ body {
 
     position: absolute;
     min-height: 100vh;
+
 
  }
 header{
