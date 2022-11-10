@@ -1,9 +1,9 @@
 @import '../Styling-Config.css';
-@import '/Styling-Config.css';
+;
 html {
     font-size: 1.5em;
     font-family: var(--maintextfont);
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 
 }
 
@@ -13,10 +13,9 @@ body {
     margin-top: 0px !Important;
     margin: 0px;
     background-image: var(--mainbodyimage);
-    background-color: var(--mainBackGroundColor);
+    background-color: var(--mainThirdColor);
     background-size:  var(--mainImageSize);
     background-repeat: var(--mainImageRepeat);
-    position: absolute;
     min-height: 100vh;
 
 
@@ -118,7 +117,7 @@ main {
     color: var(--mainTextColour);
 }
 footer {
-    background-image: var(--Footerbodyimage);
+    background-image: var(--Footerbodyimage) !important;
     background-size: var(--FooterImageSize);
     background-repeat: var(--FooterImageRepeat);
 
