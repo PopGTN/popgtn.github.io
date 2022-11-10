@@ -14,12 +14,12 @@ main {
 
 
 .column.side  {
-    width: 20%;
+    width: 20vw;
 }
 
 
 .column.middle {
-    width: 60%;
+    width: 60vw;
 }
 
 

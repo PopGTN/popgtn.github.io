@@ -24,7 +24,7 @@
 }
 /*Customize Colours and backgrounds */
 :root {
-    Having hard time to choose colors so Im using Variables to set them
+    /*Having hard time to choose colors so Im using Variables to set them*/
     /*Website title on navbar*/
     --imageNavBar: url("/css/photos/grass_blackground_around_ 512x512.png");
     --imageNavBarSize: contain;
@@ -33,20 +33,35 @@
     --navTextColour: white;
 
     /*Custom Title*/
-    --webtitleColour: #f2f2f2;
+    --webtitleColour: #000000;
     --webtitlefont: Pixeltext, sans-serif;
+    --webtitlefontSize: 5em;
+    --webtitlefontWeight: bold;
+
+
+    /* top | left and right | bottom */
+    /*padding: 1em 2em 2em;*/
 
     /*Navbar buttons*/
     --navtextfont: Pixeltext, sans-serif !important;
     --navtextColour: #f2f2f2;
-    --navTextWeight:;
+    --navButtonPadding: 0.2em 2em 0.2em;
+    --navTextWeight: none;
+    --navFontSize: 16px;
+    --ButtonBorderSize: 10px;
 
-    /*On hover on the buttons*/
+
+
+    /*Nav when hovering on the buttons*/
     --HoverColour: #896c58;
     --HoverBackGroundimage: url("/css/photos/BackAround-256x256.png");
     --HoverImageRepeat: none;
     --HoverImageSize: contain;
     --HoverButtonTxtWeight: bold;
+    /*Border on hover*/
+    --HoverButtonBorderColor: 10px ridge #d90000;
+    --HoverButtonBorderType:ridge;
+    border-bottom-style: groove;
 
     /*Body cont*/
     --maintextfont: "Open Sans", sans-Serif !important;
@@ -77,7 +92,9 @@
     --FootTextColour: #604c43;
     --FooterFontWeight: font;
 }
-body {
-    font-size-adjust: 0.58 !Important;
+
+/*Mobile Settings*/
+@media screen and (max-width: 1200px) {
+
 
 }

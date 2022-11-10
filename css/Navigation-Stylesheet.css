@@ -1,59 +1,70 @@
 @import '../Styling-Config.css';
+
 ;
 html {
     font-size: 1.5em;
     font-family: var(--maintextfont);
     /*overflow-x: hidden;*/
 
+
 }
 
 body {
     /*top: 0;*/
     width: 100vw;
-    margin-top: 0px !Important;
     margin: 0px;
+    overflow-x: hidden;
     background-image: var(--mainThirdImage);
     background-color: var(--mainThirdColor);
-    background-size:  var(--mainThirdImageSize);
+    background-size: var(--mainThirdImageSize);
     background-repeat: var(--mainThirdImageRepeat);
-    min-height: 100vh;
+    position: revert !important;
 
 
 }
-header{
+
+header {
+    display: inline-block;
+    background: white;
+    text-align: justify;
     block-size: border-box;
+    z-index: 100;
+
+}
+
+nav {
+    position: sticky;
+    top: 0px;
     background-image: var(--imageNavBar);
     background-size: var(--imageNavBarSize);
     background-repeat: var(--imageNavBarRepeat);
     background-color: var(--navBkGrdColour);
-    position: sticky;
-    top: 0;
-}
-nav {
-    display: block;
-    overflow: hidden;
+
     font-family: var(--navtextfont);
     text-align: center;
-    position: sticky;
     color: var(--navTextColour);
-    top: 0px;
-}
-header {
-    padding: 0px !important;
+    z-index: 1;
 }
 
-#SiteTitle a, #SiteTitle a:hover, #SiteTitle a:active  {
-    float: left;
+header {
     display: block;
-    position: absolute;
+    list-style: none;
+    font-family: var(--navtextfont);
+}
+
+
+#SiteTitle a, #SiteTitle a:hover, #SiteTitle a:active {
+    /*float: left;*/
+    display: block;
+    position: center;
     color: var(--webtitleColour);
-    margin: 15px;
+    /*margin: 15px;*/
 
     text-align: center;
     text-decoration: none;
     font-family: var(--webtitlefont);
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: var(--webtitlefontSize);
     text-transform: uppercase;
     background: none !important;
     border: none !important;
@@ -61,24 +72,18 @@ header {
 }
 
 #navLinks {
-    float: right;
-    list-style: none;
-    display: inline-block;
-    font-family: var(--navtextfont);
+    padding: 0px;
 }
 
 #navLinks li {
     display: inline-flex;
     text-align: center;
-    height: min-content;
 
 }
 
 nav ul {
-    margin-top: -7.5px;
-    margin-right: 1vw;
     margin-bottom: 0px;
-
+    margin-top: 0px;
 }
 
 #navLinks a:hover, a:active {
@@ -86,15 +91,7 @@ nav ul {
     background-size: var(--HoverImageSize);
     background-color: var(--HoverColour);
     font-weight: var(--HoverButtonTxtWeight);
-
-    /*Remove this to remove Border*/
-    margin-top: 0px;
-    margin-bottom: 0px;
-    border-left: #604c43 11.5px;
-    border-bottom: #604c43 4px;
-    border-right: #604c43  2.5px;
-    border-top: #604c43  5px;
-    border-style: ridge;
+    padding: var(--navButtonPadding);
 
 
 }
@@ -103,18 +100,20 @@ nav ul {
     float: left;
     display: block;
     color: #f2f2f2;
-    text-align: center;
-    padding: 0.875em 1em;
+    padding: var(--navButtonPadding);
     text-decoration: none;
-    font-size: 1em;
-
+    font-size: var(--navFontSize);
+    font-weight: var(--navTextWeight);
+    padding: calc(inherit + var(--ButtonBorderSize));
     /*Remove this When removing the border*/
-    margin-top: 11.5px;
-    margin-bottom: 4px;
+    border: var(--ButtonBorder)
 }
+
 main {
     color: var(--mainTextColour);
+    height: 100vh
 }
+
 footer {
     background-image: var(--Footerbodyimage) !important;
     background-size: var(--FooterImageSize);
@@ -125,14 +124,14 @@ footer {
     color: var(--FootTextColour);
     padding-top: 20px;
     padding-bottom: 20px;
-    position: absolute;
-    bottom: 0;
+    bottom: 0px;
     min-width: 100vw;
     font-weight: var(--FooterFontWeight);
-    /* position: fixed;
-    z-index: 1; */
+    position: relative;
+    z-index: 1;
 }
-footer a{
+
+footer a {
     font-weight: var(--FooterFontWeight);
     color: var(--FootTextColour);
     text-decoration: none;
@@ -141,4 +140,23 @@ footer a{
 
 .active {
     background-color: #00779b;
+}
+
+@media screen and (max-width: 1200px) {
+    :root{
+        --webtitlefontSize: 1em;
+
+    }
+    header {
+        float: left;
+        background: none;
+        font-size: 1em;
+        z-index: 2;
+    }
+
+    nav {
+        text-align: right;
+        z-index: 1;
+    }
+
 }
