@@ -39,16 +39,12 @@
     --webtitlefontWeight: bold;
 
 
-    /* top | left and right | bottom */
-    /*padding: 1em 2em 2em;*/
 
     /*Navbar buttons*/
     --navtextfont: Pixeltext, sans-serif !important;
     --navtextColour: #f2f2f2;
-    --navButtonPadding: 0.2em 2em 0.2em;
     --navTextWeight: none;
     --navFontSize: 16px;
-    --ButtonBorderSize: 10px;
 
 
 
@@ -58,6 +54,7 @@
     --HoverImageRepeat: none;
     --HoverImageSize: contain;
     --HoverButtonTxtWeight: bold;
+
     /*Border on hover*/
     --HoverButtonBorderColor: 10px ridge #d90000;
     --HoverButtonBorderType:ridge;
@@ -89,8 +86,8 @@
     --Footerbodyimage: url("/css/photos/bedrock_521x521.png");
     --FooterImageSize: contain;
     --FootBackaroundColor: #00c5ff;
-    --FootTextColour: #604c43;
-    --FooterFontWeight: font;
+    --FootTextColour: #ffffff;
+    --FooterFontWeight: bolder;
 }
 
 /*Mobile Settings*/

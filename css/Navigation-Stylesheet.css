@@ -91,22 +91,28 @@ nav ul {
     background-size: var(--HoverImageSize);
     background-color: var(--HoverColour);
     font-weight: var(--HoverButtonTxtWeight);
-    padding: var(--navButtonPadding);
 
-
+    /*Remove this to remove Border*/
+    margin: 0px;
+    border-left: #604c43 11.5px;
+    border-bottom: #604c43 4px;
+    border-right: #604c43  2.5px;
+    border-top: #604c43  5px;
+    border-style: ridge;
+    border-radius: 8px;
 }
 
 #navLinks a {
     float: left;
     display: block;
-    color: #f2f2f2;
-    padding: var(--navButtonPadding);
+    color: var(--navtextColour);
     text-decoration: none;
     font-size: var(--navFontSize);
     font-weight: var(--navTextWeight);
-    padding: calc(inherit + var(--ButtonBorderSize));
+    padding: 0.875em 1em;
     /*Remove this When removing the border*/
-    border: var(--ButtonBorder)
+    margin-top: 11.5px;
+    margin-bottom: 4px;
 }
 
 main {
@@ -132,7 +138,7 @@ footer {
 }
 
 footer a {
-    font-weight: var(--FooterFontWeight);
+    font-weight:  var(--FooterFontWeight);
     color: var(--FootTextColour);
     text-decoration: none;
     text-underline-style: none;
