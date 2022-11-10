@@ -1,21 +1,21 @@
-@import '../Styling-Config.css';
-;
+@import '/Styling-Config.css';
+
 html {
     font-size: 1.5em;
     font-family: var(--maintextfont);
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
 
 }
 
 body {
     /*top: 0;*/
     width: 100vw;
-    margin-top: 0px !Important;
     margin: 0px;
     background-image: var(--mainbodyimage);
-    background-color: var(--mainThirdColor);
+    background-color: var(--mainBackGroundColor);
     background-size:  var(--mainImageSize);
     background-repeat: var(--mainImageRepeat);
+    position: absolute;
     min-height: 100vh;
 
 
@@ -39,16 +39,16 @@ nav {
     top: 0px;
 }
 header {
-    padding: 0px !important;
+
 }
 
-#SiteTitle a, #SiteTitle a:hover, #SiteTitle a:active  {
+#SiteTitle a {
     float: left;
     display: block;
     position: relative;
     color: var(--webtitleColour);
-    margin-top: 1vw !important;
-    margin-left: 5vw !important;
+    margin-top: 0.3vw;
+    margin-left: 5vw;
 
     text-align: center;
     text-decoration: none;
@@ -56,8 +56,6 @@ header {
     font-weight: bold;
     font-size: 1.5em;
     text-transform: uppercase;
-    background: none !important;
-    border: none !important;
 
 }
 
@@ -71,14 +69,12 @@ header {
 #navLinks li {
     display: inline-flex;
     text-align: center;
-    height: min-content;
 
 }
 
 nav ul {
-    margin-top: -7.5px;
+    margin: 0px;
     margin-right: 1vw;
-    margin-bottom: 0px;
 
 }
 
@@ -86,18 +82,6 @@ nav ul {
     background-image: var(--HoverBackGroundimage);
     background-size: var(--HoverImageSize);
     background-color: var(--HoverColour);
-    font-weight: var(--HoverButtonTxtWeight);
-
-    /*Remove this to remove Border*/
-    margin-top: 0px;
-    margin-bottom: 0px;
-    border-left: #604c43 11.5px;
-    border-bottom: #604c43 4px;
-    border-right: #604c43  2.5px;
-    border-top: #604c43  5px;
-    border-style: ridge;
-
-
 }
 
 #navLinks a {
@@ -108,16 +92,12 @@ nav ul {
     padding: 0.875em 1em;
     text-decoration: none;
     font-size: 1em;
-
-    /*Remove this When removing the border*/
-    margin-top: 11.5px;
-    margin-bottom: 4px;
 }
 main {
     color: var(--mainTextColour);
 }
 footer {
-    background-image: var(--Footerbodyimage) !important;
+    background-image: var(--Footerbodyimage);
     background-size: var(--FooterImageSize);
     background-repeat: var(--FooterImageRepeat);
 

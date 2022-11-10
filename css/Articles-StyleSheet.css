@@ -1,17 +1,34 @@
-* {
+@import '/Styling-Config.css';
+
+div * {
     box-sizing: border-box;
 }
 
-/* Create three equal columns that floats next to each other */
+body {
+    margin: 0;
+}
+
+
+/* Create three unequal columns that floats next to each other */
 .column {
     float: left;
-    width: 25%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
 }
-.column.middle{
-    width: 70%;
-    height: 100%;
+
+/* Left and right column */
+.column.side {
+    background-color: var(--mainSecondaryBkGrColor);
+    color: var(--mainSecondaryTextColor);
+    min-height: 0vh;
+    width: 20%;
+}
+
+/* Middle column */
+.column.middle {
+    background-color: var(--mainBackGroundColor);
+    color: var(--mainTextColour);
+    width: 60%;
+    min-height: 90vh;
 }
 
 /* Clear floats after the columns */
@@ -20,3 +37,10 @@
     display: table;
     clear: both;
 }
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1200px) {
+    .column.side, .column.middle {
+        min-width: 100%;
+    }
+}r
