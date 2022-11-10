@@ -1,5 +1,5 @@
 @import '../Styling-Config.css';
-;
+
 html {
     font-size: 1.5em;
     font-family: var(--maintextfont);
@@ -58,6 +58,15 @@ header {
     text-transform: uppercase;
     background: none !important;
     border: none !important;
+
+}
+#container{
+    border: 2px blue solid;
+    width: 80%;
+    background-color: #896c58;
+    padding: 30px;
+    margin: 8px auto 0;
+
 
 }
 
@@ -126,9 +135,9 @@ footer {
     color: var(--FootTextColour);
     padding-top: 20px;
     padding-bottom: 20px;
-    position: absolute;
+    position: relative;
     bottom: 0;
-    min-width: 100vw;
+    min-width: 100%;
     /* position: fixed;
     z-index: 1; */
 }

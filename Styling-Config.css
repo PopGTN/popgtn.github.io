@@ -24,7 +24,7 @@
 }
 /*Customize Colours and backgrounds */
 :root {
-    Having hard time to choose colors so Im using Variables to set them
+   /* Having hard time to choose colors so Im using Variables to set them*/
     /*Website title on navbar*/
     --imageNavBar: url("/css/photos/grass_blackground_around_ 512x512.png");
     --imageNavBarSize: contain;
@@ -39,7 +39,7 @@
     /*Navbar buttons*/
     --navtextfont: Pixeltext, sans-serif !important;
     --navtextColour: #f2f2f2;
-    --navTextWeight:;
+   /* --navTextWeight:;*/
 
     /*On hover on the buttons*/
     --HoverColour: #896c58;
@@ -60,11 +60,8 @@
 
 
     /*Side parts of Main*/
-    --mainSecondaryImage: ;
-    --mainSecondaryImageRepeat: Margin;
     --mainSecondaryBkGrColor: #c22b2b;
     --mainSecondaryTextColor: #ffffff;
-
 
     /*Footer*/
     --FooterImageRepeat: repeat;
