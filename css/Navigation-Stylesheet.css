@@ -66,6 +66,7 @@ header {
     background-color: #896c58;
     padding: 30px;
     margin: 8px auto 0;
+    min-height: 100vh;
 
 
 }
