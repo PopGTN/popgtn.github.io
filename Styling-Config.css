@@ -60,8 +60,11 @@
 
 
     /*Side parts of Main*/
+    --mainSecondaryImage: ;
+    --mainSecondaryImageRepeat: Margin;
     --mainSecondaryBkGrColor: #c22b2b;
     --mainSecondaryTextColor: #ffffff;
+
 
     /*Footer*/
     --FooterImageRepeat: repeat;

@@ -124,7 +124,8 @@ footer {
     text-align: center;
     background-color: var(--FootBackaroundColor);
     color: var(--FootTextColour);
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     position: absolute;
     bottom: 0;
     min-width: 100vw;

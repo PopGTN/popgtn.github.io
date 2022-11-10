@@ -20,15 +20,15 @@ body {
     background-color: var(--mainSecondaryBkGrColor);
     color: var(--mainSecondaryTextColor);
     min-height: 0vh;
-    width: 20%;
+    min-width: 20%;
 }
 
 /* Middle column */
 .column.middle {
     background-color: var(--mainBackGroundColor);
     color: var(--mainTextColour);
-    width: 60%;
-    min-height: 90vh;
+    min-width: 60%;
+    min-height: 100vh;
 }
 
 /* Clear floats after the columns */
