@@ -1,5 +1,5 @@
 @import '../Styling-Config.css';
-
+@import '/Styling-Config.css';
 html {
     font-size: 1.5em;
     font-family: var(--maintextfont);

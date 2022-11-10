@@ -46,7 +46,7 @@
 
     /*Body cont*/
     --maintextfont: "Open Sans", sans-Serif !important;
-    --mainTextColour: white;
+    --mainTextColour: #000000;
     --mainBackGroundColor: #ffffff;
     --mainImageRepeat: repeat;
     --mainbodyimage: url("/css/photos/BackAround-256x256.png");
