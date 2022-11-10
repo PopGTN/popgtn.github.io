@@ -19,6 +19,7 @@ body {
 .column.side {
     background-color: var(--mainSecondaryBkGrColor);
     color: var(--mainSecondaryTextColor);
+    min-height: 0vh;
     width: 20%;
 }
 
@@ -27,6 +28,7 @@ body {
     background-color: var(--mainBackGroundColor);
     color: var(--mainTextColour);
     width: 60%;
+    min-height: 90vh;
 }
 
 /* Clear floats after the columns */
@@ -37,8 +39,8 @@ body {
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
     .column.side, .column.middle {
-        width: 100%;
+        min-width: 100%;
     }
 }r

@@ -1,7 +1,7 @@
 @import '/Styling-Config.css';
 
 html {
-    font-size: 1em;
+    font-size: 1.5em;
     font-family: var(--maintextfont);
     overflow-x: hidden;
 
@@ -12,9 +12,9 @@ body {
     width: 100vw;
     margin: 0px;
     background-image: var(--mainbodyimage);
-    background-color: var(--mainSecondaryBkGrColor);
+    background-color: var(--mainBackGroundColor);
     background-size:  var(--mainImageSize);
-    background-repeat:  var(--mainImageRepeat);
+    background-repeat: var(--mainImageRepeat);
     position: absolute;
     min-height: 100vh;
 
@@ -79,6 +79,8 @@ nav ul {
 }
 
 #navLinks a:hover, a:active {
+    background-image: var(--HoverBackGroundimage);
+    background-size: var(--HoverImageSize);
     background-color: var(--HoverColour);
 }
 
@@ -101,7 +103,7 @@ footer {
     padding: 20px;
     position: absolute;
     bottom: 0;
-    width: 100vw;
+    min-width: 100vw;
     /* position: fixed;
     z-index: 1; */
 }

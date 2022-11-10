@@ -7,18 +7,18 @@ main * {
 
 main {
     display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-    align-items: stretch
+
 }
 
 #middle{
-    width: 100%;
+    width: 70%;
 }
 
 aside {
     with:25%;
 }
+
+middle {}
 
 
 /* Add a card effect for articles */
@@ -30,6 +30,7 @@ aside {
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
     .column.side, .column.middle {
-        width: 100vw;
+        min-height: 100vh;
+        min-width: 100vw;
     }
 }

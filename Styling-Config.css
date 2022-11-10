@@ -16,7 +16,7 @@
 }
 @font-face {
     font-family: 'ProductSans';
-    src: url('css/fonts/productsans-regular-webfont.woff2') format('woff2'),
+    src: url('css/fonts') format('woff2'),
     url('css/fonts/productsans-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -28,31 +28,40 @@
     --imageNavBar: url("/css/photos/grass_blackground_around_ 512x512.png");
     --imageNavBarSize: contain;
     --imageNavBarRepeat: repeat-x;
-    --navBkGrdColour: #0086b6;
+    --navBkGrdColour: #604c43;
+    --navTextColour: white;
+
+
 
     /*Custom Title*/
     --webtitleColour: #f2f2f2;
-    --webtitlefont: jokerman, sans-serif;
+    --webtitlefont: Pixeltext, sans-serif;
 
     /*Navbar buttons*/
     --navtextfont: Pixeltext, sans-serif !important;
     --navtextColour: #f2f2f2;
-    --HoverColour: #00779b;
-
+    --HoverColour: #896c58;
+    --HoverBackGroundimage: url("/css/photos/BackAround-256x256.png");
+    --HoverImageRepeat: none;
+    --HoverImageSize: contain;
 
     /*Main cont*/
     --mainTextFont: "Open Sans", sans-Serif !important;
     --mainTextColour: white;
-    --mainbodyimage: url("/css/photos/BackAround-256x256.png");
-    --mainImageSize: 10vw 10vw;
-    --mainBackGroundColor: #896c58;
+    --mainBackGroundColor: #c22b2b;
     --mainImageRepeat: repeat;
+    --mainbodyimage: url("/css/photos/BackAround-256x256.png");
+    --mainImageSize: 2vw 2vw;
 
     /*Side parts of Main*/
-    --mainSecondaryBkGrColor: #896c58;
-    --mainSecondaryTextColor: white;
+    --mainSecondaryBkGrColor: #604c43;
+    --mainSecondaryTextColor: #ffffff;
 
     /*Footer*/
     --FootBackaroundColor: #015470;
     --FootTextColour: #ffffff;
+}
+body {
+    font-size-adjust: 0.58;
+
 }
