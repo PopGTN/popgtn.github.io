@@ -39,7 +39,6 @@ nav {
     background-size: var(--imageNavBarSize);
     background-repeat: var(--imageNavBarRepeat);
     background-color: var(--navBkGrdColour);
-
     font-family: var(--navtextfont);
     text-align: center;
     color: var(--navTextColour);
@@ -84,22 +83,20 @@ header {
 nav ul {
     margin-bottom: 0px;
     margin-top: 0px;
+
 }
 
 #navLinks a:hover, a:active {
     background-image: var(--HoverBackGroundimage);
     background-size: var(--HoverImageSize);
     background-color: var(--HoverColour);
+    background-repeat: var(--HoverImageRepeat);
     font-weight: var(--HoverButtonTxtWeight);
 
     /*Remove this to remove Border*/
-    margin: 0px;
-    border-left: #604c43 11.5px;
-    border-bottom: #604c43 4px;
-    border-right: #604c43  2.5px;
-    border-top: #604c43  5px;
+    border: #604c43 4px;
     border-style: ridge;
-    border-radius: 8px;
+    /*border-radius: 8px;*/
 }
 
 #navLinks a {
@@ -111,8 +108,14 @@ nav ul {
     font-weight: var(--navTextWeight);
     padding: 0.875em 1em;
     /*Remove this When removing the border*/
-    margin-top: 11.5px;
-    margin-bottom: 4px;
+    border: #604c43 4px;
+    border-style: ridge;
+
+    background-image: var(--NavBtnBackGroundimage);
+    background-size: var(--NavBtnImageSize);
+    background-color: var(--NavBtnColour);
+    background-repeat: var(--NavBtnImageRepeat);
+
 }
 
 main {

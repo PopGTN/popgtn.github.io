@@ -5,7 +5,11 @@
  */
 
 
-/*Custom Font Down below*/
+/*
+========================================================
+Custom Fonts
+========================================================
+*/
 @font-face {
     font-family: 'Pixeltext';
     src: url('css/fonts/Pixeltext.woff2') format('woff2'),
@@ -15,6 +19,7 @@
 
 
 }
+
 @font-face {
     font-family: 'ProductSans';
     src: url('css/fonts') format('woff2'),
@@ -22,22 +27,36 @@
     font-weight: normal;
     font-style: normal;
 }
-/*Customize Colours and backgrounds */
+
+/*
+========================================================
+Settings for Desktop Layout
+========================================================
+*/
 :root {
+    /*
+    ========================================================
+
+    Header Styling
+
+    ========================================================
+    */
     /*Having hard time to choose colors so Im using Variables to set them*/
     /*Website title on navbar*/
-    --imageNavBar: url("/css/photos/grass_blackground_around_ 512x512.png");
-    --imageNavBarSize: contain;
-    --imageNavBarRepeat: repeat-x;
-    --navBkGrdColour: #604c43;
-    --navTextColour: white;
+
 
     /*Custom Title*/
     --webtitleColour: #000000;
     --webtitlefont: Pixeltext, sans-serif;
     --webtitlefontSize: 5em;
     --webtitlefontWeight: bold;
+    /*
+    ========================================================
 
+    Header Styling
+
+    ========================================================
+    */
 
 
     /*Navbar buttons*/
@@ -46,19 +65,46 @@
     --navTextWeight: none;
     --navFontSize: 16px;
 
+    /*Background on button*/
+    --NavBtnBackGroundimage: url("/css/photos/BackAround-256x256.png");
+    --NavBtnImageSize: 256px 256px;
+    --NavBtnColour: black;
+    --NavBtnImageRepeat:;
+    /*
+    ========================================================
+    Navbar buttons Styling on Hover
+    ========================================================
+    */
 
+    /*Buttons*/
+    --imageNavBar: url("/css/photos/grass_blackground_around_ 512x512.png");
+    --imageNavBarSize: contain;
+    --imageNavBarRepeat: repeat-x;
+    --navBkGrdColour: #604c43;
+    --navTextColour: white;
 
-    /*Nav when hovering on the buttons*/
+    /*Buttons Boarder*/
+
+    /*Buttons on hover*/
     --HoverColour: #896c58;
     --HoverBackGroundimage: url("/css/photos/BackAround-256x256.png");
     --HoverImageRepeat: none;
     --HoverImageSize: contain;
-    --HoverButtonTxtWeight: bold;
+    --HoverButtonTxtWeight: none;
 
-    /*Border on hover*/
-    --HoverButtonBorderColor: 10px ridge #d90000;
-    --HoverButtonBorderType:ridge;
-    border-bottom-style: groove;
+    /*Button's border on Hover*/
+    --HoverButtonSize: 10px ;
+    --HoverButtonBorderColor: #d90000;
+    --HoverButtonBorderType: ridge;
+
+    /*border-bottom-style: groove;*/
+    /*
+    ========================================================
+
+    Body Styling
+
+    ========================================================
+    */
 
     /*Body cont*/
     --maintextfont: "Open Sans", sans-Serif !important;
@@ -80,8 +126,15 @@
     --mainSecondaryImageSize: 2% 2%;
     --mainSecondaryBkGrColor: #c22b2b;
     --mainSecondaryTextColor: #ffffff;
+    /*
+    ========================================================
 
-    /*Footer*/
+    Footer Styling
+
+    ========================================================
+    */
+
+
     --FooterImageRepeat: repeat;
     --Footerbodyimage: url("/css/photos/bedrock_521x521.png");
     --FooterImageSize: contain;
@@ -90,6 +143,13 @@
     --FooterFontWeight: bolder;
 }
 
+/*
+========================================================
+
+Settings for Mobile Layout
+
+========================================================
+*/
 /*Mobile Settings*/
 @media screen and (max-width: 1200px) {
 
