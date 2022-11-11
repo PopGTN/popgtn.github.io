@@ -14,18 +14,18 @@ main {
 
 
 .column.side  {
-
+    width: 40%;
 }
 
 
 .column.middle {
-    width: 60vw;
+    width: 60%;
 }
 
 
 .row:after {
     content: "";
-    display: table;
+    display: flex;
     clear: both;
 }
 /* Fake image */
@@ -56,8 +56,8 @@ main {
     padding: 20px;
 }
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 1200px) {
-    .column.side, .column.middle {
-        width: 100%;
+@media screen and (max-width: 600px) {
+    SideCard, column.middle,.column.side {
+        max-width: 100vw;
     }
 }

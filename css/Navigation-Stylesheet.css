@@ -18,35 +18,13 @@ body {
     background-size: var(--mainThirdImageSize);
     background-repeat: var(--mainThirdImageRepeat);
     position: revert !important;
-
-
-}
-
-header {
-    display: inline-block;
-    background:  white;
-    block-size: border-box;
-    z-index: 100;
-
-}
-
-nav {
-    position: sticky;
-    top: 0px;
-    background-image: var(--imageNavBar);
-    background-size: var(--imageNavBarSize);
-    background-repeat: var(--imageNavBarRepeat);
-    background-color: var(--navBkGrdColour);
-    font-family: var(--navtextfont);
-    text-align: center;
-    color: var(--navTextColour);
-    z-index: 1;
 }
 
 header {
     display: block;
     list-style: none;
     font-family: var(--navtextfont);
+    text-align: right;
 }
 
 
@@ -68,13 +46,25 @@ header {
 
 }
 
+nav {
+    position: sticky !important;
+    top: 0px !important;
+    background-image: var(--imageNavBar);
+    background-size: var(--imageNavBarSize);
+    background-repeat: var(--imageNavBarRepeat);
+    background-color: var(--navBkGrdColour);
+    font-family: var(--navtextfont);
+    color: var(--navTextColour);
+    z-index: 9999;
+}
+
 #navLinks {
-    padding: 0px;
+    padding-left: 10%;
+    text-align: left;
 }
 
 #navLinks li {
-    display: inline-flex;
-    text-align: right;
+    display: inline-flex;;
 
 }
 
@@ -123,6 +113,7 @@ main {
 }
 
 footer {
+    z-index: -1;
     background-image: var(--Footerbodyimage) !important;
     background-size: var(--FooterImageSize);
     background-repeat: var(--FooterImageRepeat);
@@ -152,20 +143,15 @@ footer a {
 }
 
 @media screen and (max-width: 1200px) {
-    :root{
-        --webtitlefontSize: 1em;
-
-    }
-    header {
-        float: left;
-        background: none;
-        font-size: 1em;
-        z-index: 2;
-    }
 
     nav {
         text-align: right;
+        max-height: 10vh;
         z-index: 1;
+    }
+    #navLinks * {
+        padding-left: 10%;
+        text-align: left;
     }
 
 }

@@ -28,11 +28,6 @@ Custom Fonts
     font-style: normal;
 }
 
-/*
-========================================================
-Settings for Desktop Layout
-========================================================
-*/
 :root {
     /*
     ========================================================
@@ -48,7 +43,7 @@ Settings for Desktop Layout
     /*Custom Title*/
     --webtitleColour: #000000;
     --webtitlefont: Pixeltext, sans-serif;
-    --webtitlefontSize: 5em;
+    --webtitlefontSize: 1;
     --webtitlefontWeight: bold;
     /*
     ========================================================
@@ -82,7 +77,7 @@ Settings for Desktop Layout
     --navTextColour: white;
 
     /*BackGround for Button*/
-    --BackGroundColour: #896c58;
+    --BackGroundColour: rgba(137, 108, 88, 0);
     /*--BackGroundimage: url("/css/photos/grass_blackground_around_ 512x512.png");*/
     --ImageRepeat: none;
     --ImageSize: contain;
@@ -90,7 +85,7 @@ Settings for Desktop Layout
 
     /*Buttons Boarder*/
     --ButtonBorderSize: 4px ;
-    --ButtonBorderColor: #604c43;
+    --ButtonBorderColor: rgba(137, 108, 88, 0);
     --ButtonBorderType: ridge;
 
 
@@ -100,7 +95,7 @@ Settings for Desktop Layout
     --HoverBackGroundimage: url("/css/photos/stone_521x521.png");
     --HoverImageRepeat: repeat-x;
     --HoverImageSize: contain;
-    --HoverButtonTxtWeight: none;
+    --HoverButtonTxtWeight: bolder;
 
     /*Button's border on Hover*/
     --HoverButtonBorderSize: 4px ;
@@ -122,18 +117,18 @@ Settings for Desktop Layout
     --mainBackGroundColor: #ffffff;
     --mainImageRepeat: repeat;
     --mainbodyimage: url("/css/photos/bedrock_521x521.png") !important;
-    --mainImageSize: 2vw 2vw;
+    --mainImageSize: contain;
 
     /*BackGround Image Replacement Colour*/
     --mainThirdColor: #000000FF;
-    --mainThirdImage: url("/css/photos/BackAround-256x256.png");
+    --mainThirdImage: url("/css/photos/stone_521x521.png");
     --mainThirdImageRepeat: repeat;
     --mainThirdImageSize: 2%;
 
     /*Side parts of Main*/
-    --mainSecondaryImage: url("/css/photos/stone_521x521.png");
+    --mainSecondaryImage: url("/css/photos/BackAround-256x256.png");
     --mainSecondaryImageRepeat: repeat;
-    --mainSecondaryImageSize: 2% 2%;
+    --mainSecondaryImageSize: 10px;
     --mainSecondaryBkGrColor: #ffffff;
     --mainSecondaryTextColor: #000000;
     /*
@@ -148,20 +143,8 @@ Settings for Desktop Layout
     --FooterImageRepeat: repeat;
     --Footerbodyimage: url("/css/photos/bedrock_521x521.png");
     --FooterImageSize: contain;
-    --FootBackaroundColor: #00c5ff;
+    --FootBackaroundColor: #343434;
     --FootTextColour: #ffffff;
     --FooterFontWeight: bolder;
 }
 
-/*
-========================================================
-
-Settings for Mobile Layout
-
-========================================================
-*/
-/*Mobile Settings*/
-@media screen and (max-width: 1200px) {
-
-
-}

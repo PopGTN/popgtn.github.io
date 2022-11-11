@@ -42,7 +42,7 @@ body {
 /* Clear floats after the columns */
 .row:after {
     content: "";
-    display: table;
+    display: flex;
     clear: both;
 }
 
@@ -51,4 +51,4 @@ body {
     .column.side, .column.middle {
         min-width: 100%;
     }
-}r
+}
