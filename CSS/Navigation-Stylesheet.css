@@ -20,35 +20,35 @@ body {
     position: revert !important;
 }
 
+
 header {
-    display: block;
-    list-style: none;
-    font-family: var(--navtextfont);
-    text-align: right;
+    float: left;
+    position: relative;
+    display: inline-block;
+    background-image: url("photos/IMG_1768-removebg-preview.png")
 }
 
 
-#SiteTitle a, #SiteTitle a:hover, #SiteTitle a:active {
-    /*float: left;*/
-    display: block;
+
+ #SiteTitle  a {
+    align-content: center;
     position: center;
     color: var(--webtitleColour);
-    /*margin: 15px;*/
-
+    margin: 15px;
     text-align: center;
     text-decoration: none;
     font-family: var(--webtitlefont);
     font-weight: bold;
     font-size: var(--webtitlefontSize);
-    text-transform: uppercase;
-    background: none !important;
-    border: none !important;
-
+    text-transform: capitalize;
+    border: none
 }
 
 nav {
     position: sticky !important;
     top: 0px !important;
+    resize: none;
+    display:;
     background-image: var(--imageNavBar);
     background-size: var(--imageNavBarSize);
     background-repeat: var(--imageNavBarRepeat);
@@ -58,23 +58,21 @@ nav {
     z-index: 9999;
 }
 
-#navLinks {
-    padding-left: 10%;
-    text-align: left;
-}
-
 #navLinks li {
-    display: inline-flex;;
+    display: inline-block;
 
 }
 
 nav ul {
+    padding-left: 0px;
+    padding-right: 10%;
     margin-bottom: 0px;
     margin-top: 0px;
-
+    list-style-type: none;
+    display: inline-flex;;
 }
 
-#navLinks a:hover, a:active {
+#navLinks a:hover,.navLinks a:active {
     background-image: var(--HoverBackGroundimage);
     background-size: var(--HoverImageSize);
     background-color: var(--HoverColour);
@@ -88,7 +86,7 @@ nav ul {
 
 }
 
-#navLinks a {
+ul a {
     float: left;
     display: block;
     color: var(--navtextColour);
@@ -123,10 +121,9 @@ footer {
     color: var(--FootTextColour);
     padding-top: 20px;
     padding-bottom: 20px;
-    bottom: 0px;
     min-width: 100vw;
     font-weight: var(--FooterFontWeight);
-    position: relative;
+    position: absolute;
 }
 
 footer a {
@@ -144,14 +141,5 @@ footer a {
 
 @media screen and (max-width: 1200px) {
 
-    nav {
-        text-align: right;
-        max-height: 10vh;
-        z-index: 1;
-    }
-    #navLinks * {
-        padding-left: 10%;
-        text-align: left;
-    }
 
 }

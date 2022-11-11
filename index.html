@@ -5,37 +5,33 @@
   <title>Joshua Mckenna's Website | This is a website about Joshua Mckenna</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="photos/IMG_1768-removebg-preview.png">
-  <link rel="stylesheet" href="css/Navigation-Stylesheet.css">
-  <link rel="stylesheet" href="css/ListOfArticals.css">
+  <link rel="stylesheet" href="CSS/Navigation-Stylesheet.css">
+  <link rel="stylesheet" href="CSS/ListOfArticals.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <style>
 </style>
 <body>
-<header>
-  <img id="site " src="/css/photos/IMG_1768-removebg-preview.png">
-  <h1 id="SiteTitle" style="text-align: right"><a href="index.html">Joshua Mckenna</a></h1>
 
-</header>
-<nav>
-  <ul id="navLinks">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="https://github.com/PopGTN" target="_blank">Projects</a></li>
-    <li><a href="page/contact.html">Contact</a></li>
-    <li><a href="#">Updates</a></li>
-    <li><a href="page/About-Me.html">About</a></li>
-  </ul>
-</nav>
+<!--Navigation bar-->
+<nav id="nav"> </nav>
+<script>
+  $(function(){
+    $("#nav").load("Nav&footer/nav.html");
+  });
+</script>
+<!--end of Navigation bar-->
 <main>
   <div class="row">
-    <div class="column side">
+    <div class="main side">
       <div class="SideCard">
         <h2>About Me</h2>
         <div class="fakeimg" style="height:100px;">Image</div>
         <p></p>
       </div>
     </div>
-    <section class="column middle">
+    <section class="main middle">
       <div class="MiddleCard">
         <h2>Welcome first post</h2>
         <h5>Title description, Oct 73 2022</h5>
@@ -44,7 +40,7 @@
         <p></p>
       </div>
     </section>
-    <div class="column side">
+    <div class="main side">
       <div class="SideCard">
         <h2>Other Links</h2>
         <div class="fakeimg" style="height:100px;">Image</div>
@@ -53,10 +49,13 @@
     </div>
   </div>
 </main>
-<footer class="footer">
-  <small><a href="https://www.joshuamc.ca/" target="_blank">www.joshuamc.ca</a> Copyright © 2022</small> |
-  <small>Email:&nbsp&nbsp<a href="mailto:email@joshuamc.ca"
-                            target="_blank">email@joshuamc.ca</a></small>
-</footer>
+<!--Foot bar-->
+<footer class="footer" id="footer"> </footer>
+<script>
+  $(function(){
+    $("#footer").load("Nav&footer/footer.html");
+  });
+</script>
+<!--end of Footer bar-->
 </body>
 </html>
