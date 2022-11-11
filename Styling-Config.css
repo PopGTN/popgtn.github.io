@@ -53,12 +53,10 @@ Settings for Desktop Layout
     /*
     ========================================================
 
-    Header Styling
+    Navbar Styling
 
     ========================================================
     */
-
-
     /*Navbar buttons*/
     --navtextfont: Pixeltext, sans-serif !important;
     --navtextColour: #f2f2f2;
@@ -67,9 +65,9 @@ Settings for Desktop Layout
 
     /*Background on button*/
     --NavBtnBackGroundimage: url("/css/photos/BackAround-256x256.png");
-    --NavBtnImageSize: 256px 256px;
+    --NavBtnImageSize: contain;
     --NavBtnColour: black;
-    --NavBtnImageRepeat:;
+    --NavBtnImageRepeat: repeat-x;
     /*
     ========================================================
     Navbar buttons Styling on Hover
@@ -83,18 +81,30 @@ Settings for Desktop Layout
     --navBkGrdColour: #604c43;
     --navTextColour: white;
 
+    /*BackGround for Button*/
+    --BackGroundColour: #896c58;
+    /*--BackGroundimage: url("/css/photos/grass_blackground_around_ 512x512.png");*/
+    --ImageRepeat: none;
+    --ImageSize: contain;
+
+
     /*Buttons Boarder*/
+    --ButtonBorderSize: 4px ;
+    --ButtonBorderColor: #604c43;
+    --ButtonBorderType: ridge;
+
+
 
     /*Buttons on hover*/
-    --HoverColour: #896c58;
-    --HoverBackGroundimage: url("/css/photos/BackAround-256x256.png");
-    --HoverImageRepeat: none;
+    --HoverColour: none;
+    --HoverBackGroundimage: url("/css/photos/stone_521x521.png");
+    --HoverImageRepeat: repeat-x;
     --HoverImageSize: contain;
     --HoverButtonTxtWeight: none;
 
     /*Button's border on Hover*/
-    --HoverButtonSize: 10px ;
-    --HoverButtonBorderColor: #d90000;
+    --HoverButtonBorderSize: 4px ;
+    --HoverButtonBorderColor: #ffffff;
     --HoverButtonBorderType: ridge;
 
     /*border-bottom-style: groove;*/
@@ -118,14 +128,14 @@ Settings for Desktop Layout
     --mainThirdColor: #000000FF;
     --mainThirdImage: url("/css/photos/BackAround-256x256.png");
     --mainThirdImageRepeat: repeat;
-    --mainThirdImageSize: 2vw 2vw;
+    --mainThirdImageSize: 2%;
 
     /*Side parts of Main*/
-    --mainSecondaryImage: url("/css/photos/bedrock_521x521.png");
+    --mainSecondaryImage: url("/css/photos/stone_521x521.png");
     --mainSecondaryImageRepeat: repeat;
     --mainSecondaryImageSize: 2% 2%;
-    --mainSecondaryBkGrColor: #c22b2b;
-    --mainSecondaryTextColor: #ffffff;
+    --mainSecondaryBkGrColor: #ffffff;
+    --mainSecondaryTextColor: #000000;
     /*
     ========================================================
 
