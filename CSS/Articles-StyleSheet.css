@@ -1,5 +1,5 @@
 @import '/Styling-Config.css';
-@import "MainStyleSheet.css";
+@import "/CSS/MainStyleSheet.css";
 
 div * {
     box-sizing: border-box;
@@ -30,7 +30,7 @@ body {
 /* Middle main */
 .main.middle {
 
-    background-image: var(--mainImageRepeat);
+    background-image: var(--mainbodyimages);
     background-size:  var(--mainImageSize);
     background-repeat: var(--mainImageRepeat);
     background-color: var(--mainBackGroundColor);

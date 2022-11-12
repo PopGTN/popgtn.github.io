@@ -78,7 +78,7 @@ Custom Fonts
 
     /*BackGround for Button*/
     --BackGroundColour: rgba(137, 108, 88, 0);
-    /*--BackGroundimage: url("/css/photos/grass_blackground_around_ 512x512.png");*/
+    --BackGroundimage: none;
     --ImageRepeat: none;
     --ImageSize: contain;
 
@@ -120,7 +120,7 @@ Custom Fonts
     --mainImageSize: contain;
 
     /*BackGround Image Replacement Colour*/
-    --mainThirdColor: #000000FF;
+    --mainThirdColor: #dadada;
     --mainThirdImage: url("/photos/stone_521x521.png");
     --mainThirdImageRepeat: repeat;
     --mainThirdImageSize: 2%;

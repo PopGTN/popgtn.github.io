@@ -1,4 +1,4 @@
-@import '../Styling-Config.css';
+@import '/Styling-Config.css';
 
 html {
     font-size: 1.5em;
@@ -11,10 +11,10 @@ body {
     /*top: 0;*/
     width: 100vw;
     margin: 0px;
-    background-image: var(--mainbodyimage) !important;
+    background-image: var(--mainThirdImage) !important;
     background-color: var(--mainThirdColor) !important;
-    background-size:  var(--mainImageSize) !important;
-    background-repeat: var(--mainImageRepeat) !important;
+    background-size:  var(--mainThirdImageSize) !important;
+    background-repeat: var(--mainThirdImageRepeat) !important;
     min-height: 100vh;
 
 
