@@ -10,7 +10,7 @@ footer {
     background-image: var(--Footerbodyimage) !important;
     background-size: var(--FooterImageSize);
     background-repeat: var(--FooterImageRepeat);
-    font-family: var(--F);
+    font-family: var(--FootFontFamily);
 
     text-align: center;
     background-color: var(--FootBackaroundColor);
