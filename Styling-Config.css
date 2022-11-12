@@ -59,7 +59,7 @@ Custom Fonts
     --navFontSize: 16px;
 
     /*Background on button*/
-    --NavBtnBackGroundimage: url("/CSS/photos/BackAround-256x256.png");
+    --NavBtnBackGroundimage: url("/photos/BackAround-256x256.png");
     --NavBtnImageSize: contain;
     --NavBtnColour: black;
     --NavBtnImageRepeat: repeat-x;
@@ -70,11 +70,11 @@ Custom Fonts
     */
 
     /*Buttons*/
-    --imageNavBar: url("/CSS/photos/grass_blackground_around_ 512x512.png");
+    --imageNavBar: url("/photos/grass_blackground_around_ 512x512.png");
     --imageNavBarSize: contain;
     --imageNavBarRepeat: repeat-x;
     --navBkGrdColour: #604c43;
-    --navTextColour: white;
+    --navTextColour: #ff0000;
 
     /*BackGround for Button*/
     --BackGroundColour: rgba(137, 108, 88, 0);
@@ -85,14 +85,14 @@ Custom Fonts
 
     /*Buttons Boarder*/
     --ButtonBorderSize: 4px ;
-    --ButtonBorderColor: rgba(137, 108, 88, 0);
+    --ButtonBorderColor: rgba(238, 0, 0, 0);
     --ButtonBorderType: ridge;
 
 
 
     /*Buttons on hover*/
     --HoverColour: none;
-    --HoverBackGroundimage: url("/CSS/photos/stone_521x521.png");
+    --HoverBackGroundimage: url("/photos/stone_521x521.png");
     --HoverImageRepeat: repeat-x;
     --HoverImageSize: contain;
     --HoverButtonTxtWeight: bolder;
@@ -112,21 +112,21 @@ Custom Fonts
     */
 
     /*Body cont*/
-    --maintextfont: "Open Sans", sans-Serif !important;
+    --maintextfont: "Open Sans", sans-Serif;
     --mainTextColour: #000000;
     --mainBackGroundColor: #ffffff;
     --mainImageRepeat: repeat;
-    --mainbodyimage: url("/CSS/photos/bedrock_521x521.png") !important;
+    --mainbodyimage: url("/photos/bedrock_521x521.png");
     --mainImageSize: contain;
 
     /*BackGround Image Replacement Colour*/
     --mainThirdColor: #000000FF;
-    --mainThirdImage: url("/CSS/photos/stone_521x521.png");
+    --mainThirdImage: url("/photos/stone_521x521.png");
     --mainThirdImageRepeat: repeat;
     --mainThirdImageSize: 2%;
 
     /*Side parts of Main*/
-    --mainSecondaryImage: url("/CSS/photos/BackAround-256x256.png");
+    --mainSecondaryImage: url("/photos/BackAround-256x256.png");
     --mainSecondaryImageRepeat: repeat;
     --mainSecondaryImageSize: 10%;
     --mainSecondaryBkGrColor: #ffffff;
@@ -141,10 +141,9 @@ Custom Fonts
 
 
     --FooterImageRepeat: repeat;
-    --Footerbodyimage: url("/CSS/photos/bedrock_521x521.png");
+    --Footerbodyimage: url("/photos/bedrock_521x521.png");
     --FooterImageSize: contain;
     --FootBackaroundColor: #343434;
     --FootTextColour: #ffffff;
     --FooterFontWeight: bolder;
 }
-

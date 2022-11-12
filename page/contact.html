@@ -2,49 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Joshua Mckenna's Website | This is a website about Joshua Mckenna</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="../CSS/photos/IMG_1768-removebg-preview.png">
-    <link rel="stylesheet" href="../CSS/Navigation-Stylesheet.css">
-    <link rel="stylesheet" href="../CSS/Articles-StyleSheet.css">
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-</head>
+    <title>JNoshua Mckenna's Website | This is a website about Joshua Mckenna</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="/CSS/MainStyleSheet.css">
+    <link rel="stylesheet" href="/CSS/Articles-StyleSheet.css">
 
-<style>
-</style>
+
+</head>
 <body>
-<!--Navigation bar-->
-<nav id="nav"> </nav>
-<script>
-    $(function(){
-        $("#nav").load("/Nav&footer/nav.html");
-    });
-</script>
-<!--end of Navigation bar-->
+<header-component></header-component>
 <main id="content">
     <div class="row">
         <div class="main side">
-            <h2>main 1</h2>
+            <h2>Column 1</h2>
             <p>Some text..</p>
         </div>
         <div class="main middle" id="main">
-            <h2>main 2</h2>
+            <h2>Column 2</h2>
             <p>Some text..</p>
         </div>
         <div class="main side">
-            <h2>main 3</h2>
+            <h2>Column 3</h2>
             <p>Some text..</p>
         </div>
     </div>
 </main>
-<!--Foot bar-->
-<footer class="footer" id="footer"> </footer>
-<script>
-    $(function(){
-        $("#footer").load("Nav&footer/footer.html");
-    });
-</script>
-<!--end of Footer bar-->
-
+<footer-component></footer-component>
 </body>
 </html>

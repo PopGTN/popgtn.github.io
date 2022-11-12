@@ -1,61 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Joshua Mckenna's Website | This is a website about Joshua Mckenna</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="photos/IMG_1768-removebg-preview.png">
-  <link rel="stylesheet" href="CSS/Navigation-Stylesheet.css">
-  <link rel="stylesheet" href="CSS/ListOfArticals.css">
-  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <meta charset="UTF-8">
+    <title>JNoshua Mckenna's Website | This is a website about Joshua Mckenna</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="/CSS/MainStyleSheet.css">
+    <link rel="stylesheet" href="/CSS/Articles-StyleSheet.css">
+
+
 </head>
-
-<style>
-</style>
 <body>
-
-<!--Navigation bar-->
-<nav id="nav"> </nav>
-<script>
-  $(function(){
-    $("#nav").load("Nav&footer/nav.html");
-  });
-</script>
-<!--end of Navigation bar-->
-<main>
-  <div class="row">
-    <div class="main side">
-      <div class="SideCard">
-        <h2>About Me</h2>
-        <div class="fakeimg" style="height:100px;">Image</div>
-        <p></p>
-      </div>
+<header-component></header-component>
+<main id="content">
+    <div class="row">
+        <div class="main side">
+            <h2>Column 1</h2>
+            <p>Some text..</p>
+        </div>
+        <div class="main middle" id="main">
+            <h2>Column 2</h2>
+            <p>Some text..</p>
+        </div>
+        <div class="main side">
+            <h2>Column 3</h2>
+            <p>Some text..</p>
+        </div>
     </div>
-    <section class="main middle">
-      <div class="MiddleCard">
-        <h2>Welcome first post</h2>
-        <h5>Title description, Oct 73 2022</h5>
-        <div class="fakeimg" style="height:200px;">Image</div>
-        <p>Some text..</p>
-        <p></p>
-      </div>
-    </section>
-    <div class="main side">
-      <div class="SideCard">
-        <h2>Other Links</h2>
-        <div class="fakeimg" style="height:100px;">Image</div>
-        <p></p>
-      </div>
-    </div>
-  </div>
 </main>
-<!--Foot bar-->
-<footer class="footer" id="footer"> </footer>
-<script>
-  $(function(){
-    $("#footer").load("Nav&footer/footer.html");
-  });
-</script>
-<!--end of Footer bar-->
+<footer-component></footer-component>
 </body>
 </html>

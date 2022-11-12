@@ -1,0 +1,28 @@
+@import '../Styling-Config.css';
+
+html {
+    font-size: 1.5em;
+    font-family: var(--maintextfont);
+    overflow-x: hidden;
+
+}
+
+body {
+    /*top: 0;*/
+    width: 100vw;
+    margin: 0px;
+    background-image: var(--mainbodyimage) !important;
+    background-color: var(--mainThirdColor);
+    background-size:  var(--mainImageSize);
+    background-repeat: var(--mainImageRepeat);
+    min-height: 100vh;
+
+
+}
+main {
+    color: var(--mainTextColour);
+}
+
+.active {
+    background-color: #00779b;
+}

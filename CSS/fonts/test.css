@@ -1,0 +1,122 @@
+@import '/Styling-Config.css';
+
+html {
+    font-size: 1.5em;
+    font-family: var(--maintextfont);
+    overflow-x: hidden;
+
+}
+
+body {
+    /*top: 0;*/
+    width: 100vw;
+    margin: 0px;
+    background-image: var(--mainbodyimage);
+    background-color: var(--mainBackGroundColor);
+    background-size:  var(--mainImageSize);
+    background-repeat: var(--mainImageRepeat);
+    position: absolute;
+    min-height: 100vh;
+
+
+}
+header{
+    block-size: border-box;
+    background-image: var(--imageNavBar);
+    background-size: var(--imageNavBarSize);
+    background-repeat: var(--imageNavBarRepeat);
+    background-color: var(--navBkGrdColour);
+    position: sticky;
+    top: 0;
+}
+nav {
+    display: block;
+    overflow: hidden;
+    font-family: var(--navtextfont);
+    text-align: center;
+    position: sticky;
+    color: var(--navTextColour);
+    top: 0px;
+}
+header {
+
+}
+
+#SiteTitle a {
+    float: left;
+    display: block;
+    position: relative;
+    color: var(--webtitleColour);
+    margin-top: 0.3vw;
+    margin-left: 5vw;
+
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--webtitlefont);
+    font-weight: bold;
+    font-size: 1.5em;
+    text-transform: uppercase;
+
+}
+
+#navLinks {
+    float: right;
+    list-style: none;
+    display: inline-block;
+    font-family: var(--navtextfont);
+}
+
+#navLinks li {
+    display: inline-flex;
+    text-align: center;
+
+}
+
+nav ul {
+    margin: 0px;
+    margin-right: 1vw;
+
+}
+
+#navLinks a:hover, a:active {
+    background-image: var(--HoverBackGroundimage);
+    background-size: var(--HoverImageSize);
+    background-color: var(--HoverColour);
+}
+
+#navLinks a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0.875em 1em;
+    text-decoration: none;
+    font-size: 1em;
+}
+main {
+    color: var(--mainTextColour);
+}
+footer {
+    background-image: var(--Footerbodyimage);
+    background-size: var(--FooterImageSize);
+    background-repeat: var(--FooterImageRepeat);
+
+    text-align: center;
+    background-color: var(--FootBackaroundColor);
+    color: var(--FootTextColour);
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    min-width: 100vw;
+    /* position: fixed;
+    z-index: 1; */
+}
+footer a{
+    color: var(--FootTextColour);
+    text-decoration: none;
+    text-underline-style: none;
+}
+
+.active {
+    background-color: #00779b;
+}

@@ -1,4 +1,5 @@
 @import "../Styling-Config.css";
+@import "MainStyleSheet.css";
 
 #listitems {
     display: inline-flex;
