@@ -8,7 +8,7 @@ class Header extends HTMLElement {
 <style>
     @import '/Styling-Config.css';
 
-    @font-face {
+/*    @font-face {
         font-family: 'Pixeltext';
         src: url('/CSS/fonts/Pixeltext.woff2') format('woff2'),
         url('/CSS/fonts/Pixeltext.woff') format('woff');
@@ -22,7 +22,7 @@ class Header extends HTMLElement {
         url('/CSS/fonts/productsans-regular-webfont.woff') format('woff');
         font-weight: normal;
         font-style: normal;
-    }
+    }*/
 
     html{
         margin: 0px!important;

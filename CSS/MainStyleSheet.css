@@ -12,9 +12,9 @@ body {
     width: 100vw;
     margin: 0px;
     background-image: var(--mainbodyimage) !important;
-    background-color: var(--mainThirdColor);
-    background-size:  var(--mainImageSize);
-    background-repeat: var(--mainImageRepeat);
+    background-color: var(--mainThirdColor) !important;
+    background-size:  var(--mainImageSize) !important;
+    background-repeat: var(--mainImageRepeat) !important;
     min-height: 100vh;
 
 

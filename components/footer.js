@@ -3,10 +3,14 @@ const footerTemplate = document.createElement('template');
 footerTemplate.innerHTML = `
   <style>
    @import '/Styling-Config.css';
+   
+   
+
 footer {
     background-image: var(--Footerbodyimage) !important;
     background-size: var(--FooterImageSize);
     background-repeat: var(--FooterImageRepeat);
+    font-family: var(--F);
 
     text-align: center;
     background-color: var(--FootBackaroundColor);
@@ -40,7 +44,7 @@ class Footer extends HTMLElement {
     }
 
     connectedCallback() {
-        const shadowRoot = this.attachShadow({ mode: 'closed' });
+        const shadowRoot = this.attachShadow({mode: 'closed'});
 
         shadowRoot.appendChild(footerTemplate.content);
     }
