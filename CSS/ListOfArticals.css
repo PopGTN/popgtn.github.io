@@ -1,22 +1,28 @@
 @import "../Styling-Config.css";
-@import "MainStyleSheet.css";
+.main.middle{
+}
 
-#listitems {
-    display: inline-flex;
+
+.card{
+    width: 100% !important;
+    align-self: center;
+    background-size: contain;
+    margin: 20px;
+    overflow: hidden;;
 }
-.SideCard {
-    background-image: var(--mainSecondaryImage) !important;
-    background-size: var(--mainSecondaryImageSize) !important;
-    background-repeat: var(--mainThirdImageRepeat) !important;
-    background-color: var(--mainSecondaryBkGrColor) !important;
-    color: var(--mainSecondaryTextColor) !important;
-    width: 20%;
-    position: relative;
-    padding: 20px;
+
+.card img {
+    color: var(--mainTextColour);
+    /*min-width: 100% !important;*/
+    max-height: 13.75em !important;
+    object-fit: contain;
 }
-.MiddleCard {
-    position: relative;
-    padding: 20px;
+
+.card p{
+    color: inherit;
+    font-size: 50%;
+
+    min-height: 100px;
 }
 /*page Switcher*/
 /*.pageswitcher {
@@ -59,3 +65,8 @@
   </div>
 </div>
 */
+@media screen and (max-width: 1300px) {
+    .main.side, .main.middle {
+        min-width: 100%;
+    }
+}

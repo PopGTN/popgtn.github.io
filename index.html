@@ -6,29 +6,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="components/header.js" type="text/javascript" defer></script>
-    <script src="components/footer.js" type="text/javascript" defer></script>
+    <script src="/components/navbar.js" type="text/javascript" defer></script>
+    <script src="/components/footer.js" type="text/javascript" defer></script>
     <link rel="stylesheet" href="/CSS/MainStyleSheet.css">
     <link rel="stylesheet" href="/CSS/Articles-StyleSheet.css">
+    <link rel="stylesheet" href="/CSS/ListOfArticals.css">
+    <style>
+        /* Header/Logo Title */
+        .header {
+            margin: auto;
+            position: center;
+            background-size: contain;
+            padding: 60px;
+            text-align: center;
+            justify-content: center;
+            color: white;
+            background: #1abc9c url("/photos/headerbackgroundimage.jpg") no-repeat center;
+            font-size: 30px;
+            padding-top: 20%;
+            padding-bottom: 30%;
 
+        }
+        div.header > div{
+        }
 
+        /*Header title*/
+        div.header div > *  {
+            margin: 0 !important;
+        }
+    </style>
 </head>
 <body>
-<header-component></header-component>
-<main id="content">
+<navbar-component></navbar-component>
+<div class="header">
+    <div>
+        <h2>Joshua Mckenna's Website</h2>
+        <p>Welcome to my Website</p>
+    </div>
+</div>
+<main>
     <div class="row">
-        <div class="main side">
+        <aside class="main side">
             <h2>Column 1</h2>
             <p>Some text..</p>
+        </aside>
+        <div class="main middle" id="content">
+
+            <a href="/articles/pictures.html">
+                <div class="card" d>
+                    <h3>Test Article </h3>
+                    <img src="photos/headerbackgroundimage.jpg">
+                    <p>Some text..</p>
+                </div>
+            </a>
+            <a href="/articles/pictures.html">
+                <div class="card" d>
+                    <h3>Test Article </h3>
+                    <img src="photos/headerbackgroundimage.jpg">
+                    <p>Some text..</p>
+                </div>
+            </a>
         </div>
-        <div class="main middle" id="main">
-            <h2>Column 2</h2>
-            <p>Some text..</p>
-        </div>
-        <div class="main side">
+        <aside class="main side">
             <h2>Column 3</h2>
             <p>Some text..</p>
-        </div>
+        </aside>
     </div>
 </main>
 <footer-component></footer-component>

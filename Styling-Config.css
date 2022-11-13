@@ -4,7 +4,16 @@
  █▄▄█▀ ▐█▄▄  ▄█▄   ▄█▄  ▐██ ██  ██▌ ▐██▄█▌ █▄▄█▀      ▐█── ▐██▄█▌ ▐█▀▄▄       ▄█▄  ▐█ ▐█ ▐█▄▄       ▀▄▀ ▀▄▀  ▐█▄▄ ▐█▄▄▀ █▄▄█▀ ▐██  ▄█▄  ▐█▄▄
  */
 
+/*
+========================================================
+How to edited the navbar and Footer
+========================================================
 
+You can edit the by editing the html in the Foot.js and header.js
+
+
+
+*/
 /*
 ========================================================
 Custom Fonts
@@ -43,7 +52,7 @@ Custom Fonts
     /*Custom Title*/
     --webtitleColour: #000000;
     --webtitlefont: Pixeltext, sans-serif;
-    --webtitlefontSize: 1;
+    --webtitlefontSize: 150%;
     --webtitlefontWeight: bold;
     /*
     ========================================================

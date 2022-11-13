@@ -1,4 +1,4 @@
-class Header extends HTMLElement {
+class navbar extends HTMLElement {
     constructor() {
         super();
     }
@@ -54,30 +54,24 @@ class Header extends HTMLElement {
     header {
         padding: 0px !important;
     }
+    #SiteTitle{
+        text-align: center;
+    }
+    #SiteTitle a, #SiteTitle a:hover  {
+        float: left;
+        display: block;
+        position: relative;
+        color: var(--webtitleColour);
+        margin-left: 1vw !important;
     
-#SiteTitle a, #SiteTitle a:hover  {
-    float: left;
-    display: block;
-    position: relative;
-    color: var(--webtitleColour);
- 
-    margin-left: 1vw !important;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: var(--webtitlefontSize);
+        text-transform: uppercase;
 
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.5em;
-    text-transform: uppercase;
-
-    border: none !important;
-    padding-left: 40px !important;
-    
-    
-    background-image: url("/photos/IMG_1768-removebg-preview (1).png") !important;
-    background-size: contain;
-    background-repeat: no-repeat;
-
-}
+        border: none !important;
+    }
 
     #navLinks {
         float: right;
@@ -94,9 +88,9 @@ class Header extends HTMLElement {
 
     }
 
-    nav > ul {
-    margin-right: 1vw;
-    padding: 0px;
+    nav ul {
+        margin-right: 1vw;
+        padding: 0px;
         margin-top: 0px;
         margin-right: 1vw;
         margin-bottom: 0px;
@@ -142,10 +136,15 @@ class Header extends HTMLElement {
         background-color: var(--BackGroundColour);
         background-repeat: var(--NavBtnImageRepeat);
     }
+    img.logo{
+        width: 45px;
+        height: 45px;   
+            
+    }   
 </style>
 <header>
     <nav>
-        <span id="SiteTitle"><a href="../index.html">Joshua Mckenna</a></span>
+        <span id="SiteTitle"><a href="../index.html"><img CLASS="logo" src="../photos/logo.png"> Joshua Mckenna</a></span>
         <ul id="navLinks">
             <li><a href="/index.html">Home</a></li>
             <li><a href="https://github.com/PopGTN" target="_blank">Projects</a></li>
@@ -159,4 +158,4 @@ class Header extends HTMLElement {
     }
 }
 
-customElements.define('header-component', Header);
+customElements.define('navbar-component', navbar);

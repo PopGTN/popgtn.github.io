@@ -14,6 +14,7 @@ body {
 .main {
     float: left;
     padding: 10px;
+    overflow: hidden;
 }
 
 /* Left and right main */
@@ -24,7 +25,7 @@ body {
     background-color: var(--mainSecondaryBkGrColor);
     color: var(--mainSecondaryTextColor);
     min-height: 0vh;
-    min-width: 20%;
+    width: 20%;
 }
 
 /* Middle main */
@@ -36,7 +37,7 @@ body {
     background-color: var(--mainBackGroundColor);
     color: var(--mainTextColour);
 
-    min-width: 60%;
+    width: 60%;
     min-height: 100vh;
 }
 
@@ -47,10 +48,7 @@ body {
     clear: both;
 }
 
-
-
-/* Responsive layout - makes the three mains stack on top of each other instead of next to each other */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
     .main.side, .main.middle {
         min-width: 100%;
     }
