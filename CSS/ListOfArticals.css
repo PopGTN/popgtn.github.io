@@ -1,10 +1,12 @@
 @import "../Styling-Config.css";
-.main.middle{
+.main.middle {
+    overflow: hidden;
+    display: table;
 }
 
 
 .card{
-    width: 100% !important;
+    display: table-cell;
     align-self: center;
     background-size: contain;
     margin: 20px;
@@ -13,9 +15,9 @@
 
 .card img {
     color: var(--mainTextColour);
-    /*min-width: 100% !important;*/
-    max-height: 13.75em !important;
-    object-fit: contain;
+    width:  64em !important;
+    max-height: 13em !important;
+    object-fit: cover;
 }
 
 .card p{
