@@ -1,56 +1,32 @@
 @import "../Styling-Config.css";
-
-main * {
+.table {
     box-sizing: border-box;
-
 }
-
-main {
-}
-
-.column {
+.column{
     float: left;
+    width: 50%;
+    padding: 10px;
+    min-height: 100vh;
+    border: black 1px;
 }
-
-
-.column.side  {
-    width: 20%;
-}
-
-
-.column.middle {
-    width: 60%;
-}
-
-
-.row:after {
+.table:after {
     content: "";
     display: table;
     clear: both;
 }
-/* Fake image */
-.fakeimg {
-    background-color: #aaa;
+.card{
+    display: inline-block;
+    float: left;
+    border: 10px #dadada ;
+    text-decoration: none !important;
+    color: var(--mainTextColour) !important;
+    align-self: center;
+    background-size: contain;
+    margin: 20px;
+    overflow: hidden;;
+}
+
+.card img {
     width: 100%;
-
-}
-
-/* Add a card effect for articles */
-.SideCard {
-    position: relative;
-    background-color: var(--mainSecondaryBkGrColor);
-    color: var(--mainSecondaryTextColor);
-    padding: 20px;
-}
-.MiddleCard {
-    position: relative;
-    background-color: var(--mainBackGroundColor);
-    color: var(--mainTextColour);
-    padding: 20px;
-}
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 1200px) {
-    .column.side, .column.middle {
-        width: 100%;
-    }
+    margin: 0px;
 }

@@ -61,14 +61,14 @@ header {
 
 }
 #container{
+    background-image: url("../photos/stone_521x521.png");
     border: 2px blue solid;
     width: 80%;
-    background-color: #896c58;
+    background-color: #ffffff;
     padding: 30px;
     margin: 8px auto 0;
     min-height: 100vh;
-
-
+    background-size:  2vw 2vw;
 }
 
 #navLinks {
