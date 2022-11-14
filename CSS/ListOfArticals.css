@@ -1,12 +1,25 @@
 @import "../Styling-Config.css";
-.main.middle {
-    overflow: hidden;
-    display: table;
+.table {
+    box-sizing: border-box;
 }
-
-
+.column{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    min-height: 100vh;
+    border: black 1px;
+}
+.table:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 .card{
-    display: table-cell;
+    display: inline-block;
+    float: left;
+    border: 10px #dadada ;
+    text-decoration: none !important;
+    color: var(--mainTextColour) !important;
     align-self: center;
     background-size: contain;
     margin: 20px;
@@ -14,18 +27,10 @@
 }
 
 .card img {
-    color: var(--mainTextColour);
-    width:  64em !important;
-    max-height: 13em !important;
-    object-fit: cover;
+    width: 100%;
+    margin: 0px;
 }
 
-.card p{
-    color: inherit;
-    font-size: 50%;
-
-    min-height: 100px;
-}
 /*page Switcher*/
 /*.pageswitcher {
     text-align: center;

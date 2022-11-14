@@ -14,24 +14,26 @@
     <style>
         /* Header/Logo Title */
         .header {
+            font-family: Pixeltext,"Sans Serif";
             margin: auto;
-            position: center;
+
             background-size: contain;
             padding: 60px;
             text-align: center;
             justify-content: center;
             color: white;
-            background: #1abc9c url("/photos/headerbackgroundimage.jpg") no-repeat center;
+            background: rgba(137, 108, 88, 0) url("/photos/headerbackgroundimage.jpg") repeat center;
             font-size: 30px;
-            padding-top: 20%;
-            padding-bottom: 30%;
+            padding-top: 10%;
+            padding-bottom: 20%;
 
         }
-        div.header > div{
+
+        div.header > div {
         }
 
         /*Header title*/
-        div.header div > *  {
+        div.header div > * {
             margin: 0 !important;
         }
     </style>
@@ -50,23 +52,34 @@
             <h2>Column 1</h2>
             <p>Some text..</p>
         </aside>
-        <div class="main middle" id="content">
-
-            <a href="/articles/pictures.html">
-                <div class="card" d>
-                    <h3>Test Article </h3>
-                    <img src="photos/headerbackgroundimage.jpg">
-                    <p>Some text..</p>
+        <section class="main middle">
+            <div class="table">
+                <div class="column">
+                    <a href="My Photos" class="card" d>
+                        <h3>Test Article </h3>
+                        <img src="photos/headerbackgroundimage.jpg">
+                        <p>Some text..</p>
+                    </a>
+                    <a href="/projects/Server-Core.html" class="card" d>
+                        <h3>Minecraft: Server Core Plugin</h3>
+                        <img class="card" src="photos/headerbackgroundimage.jpg">
+                        <p>Some text..</p>
+                    </a>
                 </div>
-            </a>
-            <a href="/articles/pictures.html">
-                <div class="card" d>
-                    <h3>Test Article </h3>
-                    <img src="photos/headerbackgroundimage.jpg">
-                    <p>Some text..</p>
+                <div class="column">
+                    <a href="articles/pictures.html" class="card" d>
+                        <h3>Test Article </h3>
+                        <img class="card" src="photos/headerbackgroundimage.jpg">
+                        <p>Some text..</p>
+                    </a>
+                    <a href="articles/pictures.html" class="card" d>
+                        <h3>Test Article </h3>
+                        <img class="card" src="photos/headerbackgroundimage.jpg">
+                        <p>Some text..</p>
+                    </a>
                 </div>
-            </a>
-        </div>
+            </div>
+        </section>
         <aside class="main side">
             <h2>Column 3</h2>
             <p>Some text..</p>
