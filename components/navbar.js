@@ -137,8 +137,8 @@ class navbar extends HTMLElement {
         background-repeat: var(--NavBtnImageRepeat);
     }
     img.logo{
-        width: 45px;
-        height: 45px;   
+        width: 46px;
+        height: 46px;   
             
     }   
 </style>
