@@ -3,48 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <title>Joshua Mckenna's Website | This is a website about Joshua Mckenna</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="../css/photos/IMG_1768-removebg-preview.png">
-    <link rel="stylesheet" href="../css/Navigation-Stylesheet.css">
-    <link rel="stylesheet" href="../css/Articles-StyleSheet.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="/components/navbar.js" type="text/javascript" defer></script>
+    <script src="/components/footer.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="/CSS/MainStyleSheet.css">
+    <link rel="stylesheet" href="/CSS/Articles-StyleSheet.css">
+    <style>
+        /* Header/Logo Title */
+        .header {
+            padding: 60px;
+            text-align: center;
+            background: #1abc9c;
+            color: white;
+            font-size: 30px;
+        }
 
-<style>
-</style>
+        /*Header title*/
+        header p, header h1 {
+            margin: 0px;
+        }
+    </style>
+</head>
 <body>
-<header>
-    <nav>
-        <span id="SiteTitle"><a href="../index.html">Joshua Mckenna</a></span>
-        <ul id="navLinks">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="https://github.com/PopGTN" target="_blank">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="#">Updates</a></li>
-            <li><a href="About-Me.html">About</a></li>
-        </ul>
-    </nav>
-</header>
+<navbar-component></navbar-component>
 <main id="content">
     <div class="row">
-        <div class="column side">
+        <div class="main side">
             <h2>Column 1</h2>
             <p>Some text..</p>
         </div>
-        <div class="column middle" id="main">
+        <div class="main middle">
             <h2>Column 2</h2>
             <p>Some text..</p>
         </div>
-        <div class="column side">
+        <div class="main side">
             <h2>Column 3</h2>
             <p>Some text..</p>
         </div>
     </div>
 </main>
-<footer class="footer" id="footer">
-    <small><a href="https://www.joshuamc.ca/" target="_blank">www.joshuamc.ca</a> Copyright © 2022</small> |
-    <small>Email:&nbsp&nbsp<a href="mailto:email@joshuamc.ca"
-                              target="_blank">email@joshuamc.ca</a></small>
-
-</footer>
+<footer-component></footer-component>
 </body>
 </html>

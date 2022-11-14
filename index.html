@@ -3,58 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <title>Joshua Mckenna's Website | This is a website about Joshua Mckenna</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="photos/IMG_1768-removebg-preview.png">
-    <link rel="stylesheet" href="css/Navigation-Stylesheet.css">
-    <link rel="stylesheet" href="css/ListOfArticals.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="/components/navbar.js" type="text/javascript" defer></script>
+    <script src="/components/footer.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="/CSS/MainStyleSheet.css">
+    <link rel="stylesheet" href="/CSS/Articles-StyleSheet.css">
+    <link rel="stylesheet" href="/CSS/ListOfArticals.css">
+    <style>
+        /* Header/Logo Title */
+        .header {
+            font-family: Pixeltext, sans-serif;
+            margin: auto;
 
-<style>
-</style>
+            background-size: contain;
+            padding: 60px;
+            text-align: center;
+            justify-content: center;
+            color: white;
+            background: rgba(137, 108, 88, 0) url("/photos/headerbackgroundimage.jpg") repeat center;
+            font-size: 30px;
+            padding-top: 10%;
+            padding-bottom: 20%;
+
+        }
+
+        div.header > div {
+        }
+
+        /*Header title*/
+        div.header div > * {
+            margin: 0 !important;
+        }
+        @media screen and (min-width: 2560px) {
+            .header {
+                background-size: 100% 100%;
+            }
+        }
+    </style>
+</head>
 <body>
-<header>
-<span id="SiteTitle"><a href="../index.html">Joshua Mckenna</a></span>
-<nav>
-    <ul id="navLinks">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="https://github.com/PopGTN" target="_blank">Projects</a></li>
-        <li><a href="page/contact.html">Contact</a></li>
-        <li><a href="#">Updates</a></li>
-        <li><a href="page/About-Me.html">About</a></li>
-    </ul>
-</nav>
-    </header>
+<navbar-component></navbar-component>
+<section class="header">
+    <div>
+        <h2>Joshua Mckenna's Website</h2>
+        <p>Welcome to my Website</p>
+    </div>
+</section>
 <main>
     <div class="row">
-        <div class="column side">
-            <div class="SideCard">
-                <h2>About Me</h2>
-                <div class="fakeimg" style="height:100px;">Image</div>
-                <p></p>
-            </div>
-        </div>
-        <section class="column middle">
-            <div class="MiddleCard">
-                <h2>Welcome first post</h2>
-                <h5>Title description, Oct 73 2022</h5>
-                <div class="fakeimg" style="height:200px;">Image</div>
-                <p>Some text..</p>
-                <p></p>
+        <aside class="main side">
+            <h2>Column 1</h2>
+            <p>Some text..</p>
+        </aside>
+        <section class="main middle">
+            <div class="table">
+                <div class="column">
+                    <a href="My Photos" class="card" d>
+                        <h3>Test Article </h3>
+                        <img src="photos/headerbackgroundimage.jpg">
+                        <p>Some text..</p>
+                    </a>
+                    <a href="/projects/Server-Core.html" class="card" d>
+                        <h3>Minecraft: Server Core Plugin</h3>
+                        <img class="card" src="photos/headerbackgroundimage.jpg">
+                        <p>Some text..</p>
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="articles/pictures.html" class="card" d>
+                        <h3>Test Article </h3>
+                        <img class="card" src="photos/headerbackgroundimage.jpg">
+                        <p>Some text..</p>
+                    </a>
+                    <a href="articles/pictures.html" class="card" d>
+                        <h3>Test Article </h3>
+                        <img class="card" src="photos/headerbackgroundimage.jpg">
+                        <p>Some text..</p>
+                    </a>
+                </div>
             </div>
         </section>
-        <div class="column side">
-            <div class="SideCard">
-                <h2>Other Links</h2>
-                <div class="fakeimg" style="height:100px;">Image</div>
-                <p></p>
-            </div>
-        </div>
+        <aside class="main side">
+            <h2>Column 3</h2>
+            <p>Some text..</p>
+        </aside>
     </div>
 </main>
-<footer class="footer">
-    <small><a href="https://www.joshuamc.ca/" target="_blank">www.joshuamc.ca</a> Copyright © 2022</small> |
-    <small>Email:&nbsp&nbsp<a href="mailto:email@joshuamc.ca"
-                              target="_blank">email@joshuamc.ca</a></small>
-</footer>
+<footer-component></footer-component>
 </body>
 </html>
