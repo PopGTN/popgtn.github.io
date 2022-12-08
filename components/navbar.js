@@ -149,7 +149,7 @@ class navbar extends HTMLElement {
             <li><a href="/index.html">Home</a></li>
             <li><a href="https://github.com/PopGTN" target="_blank">Projects</a></li>
             <li><a href="/page/contact.html">Contact</a></li>
-            <li><a href="#">Updates</a></li>
+            <li><a href="">CS-Sample</a></li>
             <li><a href="/page/About-Me.html">About</a></li>
         </ul>
     </nav>
