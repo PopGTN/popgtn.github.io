@@ -47,7 +47,9 @@ main {
 
 .navbar {
     background-color: saddlebrown !important;
-    background-image: url("../photos/grass_blackground_around_ 512x512.png") !important;
+    background-image:  url("../photos/grass_blackground_around_ 512x512.png") !important;
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 .active {
