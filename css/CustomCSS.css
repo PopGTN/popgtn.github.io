@@ -60,8 +60,7 @@ main {
 }
 
 .nav-link {
-    background-image: url("../photos/bedrock_521x521.png");
-    background: #454545;
+    background: #454545 url("../photos/bedrock_521x521.png");
     border: 100px  white;
 
 }
