@@ -32,7 +32,7 @@ class navbar extends HTMLElement {
                         <li><a class="dropdown-item" href="#">Another action</a></li>
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
-                </li>
+                </li><!--
             <li class="nav-item dropdown">
                 <div class="btn-group">
                     <a href="services.html" class="nav-link">Services</a>
@@ -46,7 +46,7 @@ class navbar extends HTMLElement {
 
                     </div>
                 </div>
-            </li>
+            </li-->
             </ul>
         </div>
     </div>
