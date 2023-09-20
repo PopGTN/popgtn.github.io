@@ -59,6 +59,16 @@ main {
     background-size: contain;
 }
 
+.footer {
+    font-family: 'Pixeltext', serif;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: saddlebrown !important;
+    background-image:  url("photos/bedrock_521x521.png") !important;
+    background-repeat: repeat;
+    background-size: contain;
+}
+
 .nav-link {
     background: #454545 url("photos/bedrock_521x521.png");
     border: 100px  white;
