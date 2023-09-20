@@ -51,10 +51,50 @@ main {
 */
 
 .navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
     background-color: saddlebrown !important;
-    background-image:  url("../photos/grass_blackground_around_ 512x512.png") !important;
+    background-image:  url("photos/grass_blackground_around_ 512x512.png") !important;
     background-repeat: repeat-x;
     background-size: contain;
+}
+
+.nav-link {
+    background-image: url("photos/stone_521x521.png");
+
+}
+
+.nav-link:hover {
+    background-image: url("photos/stone_521x521.png");
+
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+    /*background: #FFCEC2;*/
+}
+.btn-group a:nth-child(1) {
+    padding-right: 0px!important;
+}
+
+.btn-group:hover .dropdown-menu {
+    display: block !important;
+    color: #0f0 !important;
+}
+
+nav .btn-group a:nth-child(1) {
+    padding-right: 0px!important;
+}
+
+nav .btn-group a:nth-child(2) {
+    /*padding-left: 0px!important;*/
+
+}
+.btn-group:hover .dropdown-menu {
+    display: block !important;
+    color: #0f0 !important;
 }
 
 .active {

@@ -33,6 +33,20 @@ class navbar extends HTMLElement {
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
                 </li>
+            <li class="nav-item dropdown">
+                <div class="btn-group">
+                    <a href="services.html" class="nav-link">Services</a>
+                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                       data-toggle="dropdown" aria-expanded="false"></a>
+                    <div class="dropdown-menu" data-bs-popper>
+                        <a href="hoovers.html" class="dropdown-item">Hoovers</a>
+                        <a href="#" class="dropdown-item">Dyson</a>
+                        <a href="#" class="dropdown-item">Fans</a>
+                        <a href="#" class="dropdown-item">Microwaves</a>
+
+                    </div>
+                </div>
+            </li>
             </ul>
         </div>
     </div>
