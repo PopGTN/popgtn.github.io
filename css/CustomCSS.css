@@ -60,12 +60,14 @@ main {
 }
 
 .nav-link {
-    background-image: url("photos/stone_521x521.png");
+    background-image: url("../photos/bedrock_521x521.png");
+    background: #454545;
+    border: 100px  white;
 
 }
 
 .nav-link:hover {
-    background-image: url("photos/stone_521x521.png");
+    background-image: url("../photos/stone_521x521.png");
 
 }
 .center {
