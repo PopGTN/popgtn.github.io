@@ -8,7 +8,11 @@ div * {
 body {
     margin: 0;
 }
-
+.main2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 /* Create three unequal mains that floats next to each other */
 .main {
@@ -47,6 +51,8 @@ body {
     display: flex;
     clear: both;
 }
+
+
 
 @media screen and (max-width: 1300px) {
     .main.side, .main.middle {

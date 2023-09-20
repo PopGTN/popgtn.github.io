@@ -9,14 +9,32 @@
     min-height: 100vh;
     border: black 1px;
 }
+
+.listColumn{
+    /*float: left;*/
+    width: 20vw;
+    padding: 10px;
+    min-height: 100vh;
+    border: black 1px;
+    display: flex;
+    flex-wrap: wrap;
+}
 .table:after {
     content: "";
     display: table;
     clear: both;
+
 }
+
+.listCard {
+
+}
+
+
+
 .card{
     display: inline-block;
-    float: left;
+    /*float: left;*/
     border: 10px #dadada ;
     text-decoration: none !important;
     color: var(--mainTextColour) !important;
