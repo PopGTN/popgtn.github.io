@@ -1,0 +1,61 @@
+/*@import '/Styling-Config.css';*/
+
+@font-face {
+    font-family: 'Pixeltext';
+    src: url('css/fonts/Pixeltext.woff2') format('woff2'),
+    url('css/fonts/Pixeltext.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+
+@font-face {
+    font-family: 'ProductSans';
+    src: url('css/fonts') format('woff2'),
+    url('css/fonts/productsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html {
+    font-size: 24px;
+    font-family: var(--maintextfont);
+    overflow-x: hidden;
+
+}
+
+/*
+body {
+    !*top: 0;*!
+    width: 100vw;
+    margin: 0px;
+    background-image:  url("/photos/stone_521x521.png") !important;
+    background-color: #ffffff !important;
+    background-size: 2% !important;
+    background-repeat: repeat !important;
+    min-height: 100vh;
+}
+
+main {
+    color: #dadada;
+    min-height: 100vh;
+}
+
+*/
+
+.navbar {
+    background-color: saddlebrown !important;
+    background-image: url("../photos/grass_blackground_around_ 512x512.png") !important;
+}
+
+.active {
+    background-color: #00779b;
+}
+
+@media (min-width: 992px) {
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+}

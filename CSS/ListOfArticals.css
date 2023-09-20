@@ -34,7 +34,6 @@
 
 .card{
     display: inline-block;
-    /*float: left;*/
     border: 10px #dadada ;
     text-decoration: none !important;
     color: var(--mainTextColour) !important;

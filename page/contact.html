@@ -8,8 +8,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="/components/navbar.js" type="text/javascript" defer></script>
     <script src="/components/footer.js" type="text/javascript" defer></script>
-    <link rel="stylesheet" href="/CSS/MainStyleSheet.css">
-    <link rel="stylesheet" href="/CSS/Articles-StyleSheet.css">
+    <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/CustomCSS.css">
+    <script src="/js/bootstrap/bootstrap.bundle.min.js"></script>
     <style>
         /* Header/Logo Title */
         .header {
@@ -27,14 +28,31 @@
     </style>
 </head>
 <body>
-<navbar-component></navbar-component>
-<main id="content">
+<!--<navbar-component></navbar-component>-->
+
+<navbar-component class="navbar navbar-expand-lg bg-body-tertiary sticky-top"></navbar-component>
+<main id="flex-shrink-0">
     <div class="row">
         <div class="main side">
             <h2>Column 1</h2>
             <p>Some text..</p>
         </div>
         <div class="main middle">
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary">Button</button>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                        Dropdown
+                    </button>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Action</a>
+                        <a href="#" class="dropdown-item">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">Separated link</a>
+                    </div>
+                </div>
+            </div>
+
             <h2>Column 2</h2>
             <p>Some text..</p>
         </div>
@@ -44,6 +62,8 @@
         </div>
     </div>
 </main>
-<footer-component></footer-component>
+<footer class="footer mt-auto py-3 bg-light">
+<footer-component ></footer-component>
+</footer>
 </body>
 </html>
