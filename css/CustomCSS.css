@@ -26,6 +26,11 @@ html {
 
 }
 
+.mcfont {
+    font-family: 'Pixeltext', serif;
+}
+
+
 /*
 body {
     !*top: 0;*!

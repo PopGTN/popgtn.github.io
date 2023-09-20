@@ -7,7 +7,7 @@ class navbar extends HTMLElement {
         this.innerHTML = `
 <!--<nav class="navbar navbar-expand-lg bg-body-tertiary">-->
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand mcfont" href="#">
             <img src="../photos/logo.png" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
             JoshuaMC
         </a>
