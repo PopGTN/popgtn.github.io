@@ -26,11 +26,23 @@
             font-size: 30px;
             padding-top: 10%;
             padding-bottom: 20%;
+            margin-bottom: 20px;
 
         }
 
-        div.header > div {
+       .card {
+           margin: 5px;
+           padding-left: 0px;
+           padding-right: 0px;
+
         }
+
+        .card-link{
+            color: #000000 !important;
+            text-decoration-line: none;
+        }
+
+
 
         /*Header title*/
         div.header div > * {
@@ -52,45 +64,57 @@
     </div>
 </section>
 <main id="flex-shrink-0">
-    <div class="row">
-        <aside class="main side">
+    <div class="row row-cols-3">
+        <aside class="col-12 col-xl-3">
             <h2>Column 1</h2>
             <p>Some text..</p>
         </aside>
-        <section class="main middle">
-            <div class="table">
-                <div class="listColumn">
-                    <a href="My Photos" class="card" d>
-                        <h3>Test Article </h3>
-                        <img src="photos/headerbackgroundimage.jpg">
-                        <p>Some text..</p>
+        <section class="col-12 col-xl-6">
+            <div class="row">
+                <div class="card" style="width: 18rem;">
+                    <a href="#" class="card-link">
+                        <img src="photos/MyPictures.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
                     </a>
-                    <a href="/projects/Server-Core.html" class="card" d>
-                        <h3>Minecraft: Server Core Plugin</h3>
-                        <img class="card" src="photos/headerbackgroundimage.jpg">
-                        <p>Some text..</p>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <a href="#" class="card-link">
+                    <img src="photos/MyPictures.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
                     </a>
-            <!--    </div>
-                <div class="column">-->
-                    <a href="articles/pictures.html" class="card" d>
-                        <h3>Test Article </h3>
-                        <img class="card" src="photos/headerbackgroundimage.jpg">
-                        <p>Some text..</p>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <a href="#" class="card-link">
+                        <img src="photos/MyPictures.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
                     </a>
-                    <a href="articles/pictures.html" class="card" d>
-                        <h3>Test Article </h3>
-                        <img class="card" src="photos/headerbackgroundimage.jpg">
-                        <p>Some text..</p>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <a href="#" class="card-link">
+                        <img src="photos/MyPictures.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
                     </a>
                 </div>
             </div>
         </section>
-        <aside class="main side">
+        <aside class="col-12 col-xl-3">
             <h2>Column 3</h2>
             <p>Some text..</p>
         </aside>
     </div>
 </main>
-<footer-component class="footer mt-auto py-3 bg-light" style="width: 100vh"></footer-component>
+<footer-component class="mt-auto py-3">failed to load Footer</footer-component>
 </body>
 </html>

@@ -1,12 +1,13 @@
 const footerTemplate = document.createElement('template');
 
 footerTemplate.innerHTML = `
-<!--<footer class="footer mt-auto py-3 bg-light">-->
+<footer class="footer">
+
     <small><a href="https://www.joshuamc.ca/" target="_blank">www.joshuamc.ca</a> Copyright © 2022</small> |
     <small>Email:&nbsp&nbsp<a href="mailto:email@joshuamc.ca"
                               target="_blank">email@joshuamc.ca</a></small>
 
-<!--</footer>-->
+</footer>
 `;
 
 class Footer extends HTMLElement {

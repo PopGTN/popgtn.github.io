@@ -60,13 +60,13 @@ main {
 }
 
 .nav-link {
-    background: #454545 url("../photos/bedrock_521x521.png");
+    background: #454545 url("photos/bedrock_521x521.png");
     border: 100px  white;
 
 }
 
 .nav-link:hover {
-    background-image: url("../photos/stone_521x521.png");
+    background-image: url("photos/stone_521x521.png");
 
 }
 .center {
@@ -76,27 +76,14 @@ main {
     min-height: 150px;
     /*background: #FFCEC2;*/
 }
-.btn-group a:nth-child(1) {
-    padding-right: 0px!important;
-}
 
-.btn-group:hover .dropdown-menu {
-    display: block !important;
-    color: #0f0 !important;
-}
 
-nav .btn-group a:nth-child(1) {
-    padding-right: 0px!important;
-}
-
-nav .btn-group a:nth-child(2) {
-    /*padding-left: 0px!important;*/
+footer, footer-component {
+    padding-top: 18rem;
+    padding-bottom: 18rem;
 
 }
-.btn-group:hover .dropdown-menu {
-    display: block !important;
-    color: #0f0 !important;
-}
+
 
 .active {
     background-color: #00779b;
