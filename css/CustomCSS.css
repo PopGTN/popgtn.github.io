@@ -66,12 +66,17 @@ footer{
 
 .nav-link {
     background-image: url("../photos/bedrock_521x521.png")  !important;
-    border: 100px  white;
+    border: 1px transparent;
+    background-repeat: repeat-x;
+    background-size: contain;
 
 }
 
 .nav-link:hover {
+    border: 1px rgb(128, 128, 128);
     background-image: url("../photos/stone_521x521.png") !important;
+    background-repeat: repeat-x;
+    background-size: contain;
 
 }
 .center {
