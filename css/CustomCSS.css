@@ -1,5 +1,7 @@
 /*@import '/Styling-Config.css';*/
 
+
+
 @font-face {
     font-family: 'Pixeltext';
     src: url('css/fonts/Pixeltext.woff2') format('woff2'),
@@ -27,11 +29,12 @@ html {
 }
 
 .mcfont {
-    font-family: 'Pixeltext', serif;
+    font-family: 'Pixeltext', sans-serif;
 }
 
 
 body {
+    font-family: 'Pixeltext', sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -49,12 +52,12 @@ footer{
     background-size: contain;
 }
 
-.footer {
-    font-family: 'Pixeltext', serif;
+/*.footer {
+    font-family: 'Pixeltext', sans-serif !important;
     padding-top: 0px;
     padding-bottom: 0px;
     background-color: saddlebrown !important;
-    background-image:  url("photos/bedrock_521x521.png") !important;
+    background-image:  url("../photos/bedrock_521x521.png") !important;
     background-repeat: repeat;
     background-size: contain;
 }
@@ -62,15 +65,15 @@ footer{
 
 
 .nav-link {
-    background: #454545 url("photos/bedrock_521x521.png");
+    background: #454545 url("../photos/bedrock_521x521.png");
     border: 100px  white;
 
 }
 
 .nav-link:hover {
-    background-image: url("photos/stone_521x521.png");
+    background-image: url("../photos/stone_521x521.png");
 
-}
+}*/
 .center {
     display: flex;
     justify-content: center;
