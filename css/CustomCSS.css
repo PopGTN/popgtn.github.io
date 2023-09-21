@@ -52,7 +52,7 @@ footer{
     background-size: contain;
 }
 
-/*.footer {
+.footer {
     font-family: 'Pixeltext', sans-serif !important;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -65,15 +65,15 @@ footer{
 
 
 .nav-link {
-    background: #454545 url("../photos/bedrock_521x521.png");
+    background-image: url("../photos/bedrock_521x521.png")  !important;
     border: 100px  white;
 
 }
 
 .nav-link:hover {
-    background-image: url("../photos/stone_521x521.png");
+    background-image: url("../photos/stone_521x521.png") !important;
 
-}*/
+}
 .center {
     display: flex;
     justify-content: center;
