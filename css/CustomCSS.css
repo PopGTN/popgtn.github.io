@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'Pixeltext';
-    src: url('/fonts/Pixeltext.woff2') format('woff2'),
-    url('/fonts/Pixeltext.woff') format('woff');
+    src: url('fonts/Pixeltext.woff2') format('woff2'),
+    url('fonts/Pixeltext.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -14,8 +14,8 @@
 
 @font-face {
     font-family: 'ProductSans';
-    src: url('/fonts') format('woff2'),
-    url('/fonts/productsans-regular-webfont.woff') format('woff');
+    src: url('fonts') format('woff2'),
+    url('fonts/productsans-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -62,7 +62,9 @@ footer{
     background-size: contain;
 }
 
-
+.navbar-nav .nav-link {
+    font-family: 'Pixeltext', sans-serif;
+}
 
 .nav-link {
     /*background-image: url("../photos/bedrock_521x521.png")  !important;*/
