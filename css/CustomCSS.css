@@ -135,8 +135,8 @@ aside {
         padding-bottom: 0px;
         background-color: saddlebrown;
         background-image: url('photos/grass_blackground_around_ 512x512.png');
-        background-repeat: repeat;
-        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 
