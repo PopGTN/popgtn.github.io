@@ -56,6 +56,7 @@ footer {
     background-image:  url("../photos/bedrock_521x521.png") !important;
     background-repeat: repeat;
     background-size: contain;
+    color: white !important;
 }
 
 .navbar-nav .nav-link {
