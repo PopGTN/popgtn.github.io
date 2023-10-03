@@ -84,6 +84,11 @@ footer {
     min-height: 150px;
     /*background: #FFCEC2;*/
 }
+aside {
+    margin: 0px;
+}
+
+
 
 .aside {
     background-image:  url("../photos/dirt-block-256x256.png") !important;
