@@ -23,7 +23,6 @@
 
 html {
     font-size: 24px;
-    font-family: var(--maintextfont);
     overflow-x: hidden;
 
 }
@@ -49,7 +48,7 @@ footer{
     background-image:  url("../photos/grass_blackground_around_ 512x512.png") !important;
     background-repeat: repeat-x;
     background-size: contain;*/
-    background-image: url('top-image.jpg'), url('bottom-image.jpg');
+    background-image: url('../photos/grass_blackground_around_ 512x512.png'), url('../photos/dirt-block-256x256.png');
     background-repeat: no-repeat;
     background-position: center top, center bottom;
 }
