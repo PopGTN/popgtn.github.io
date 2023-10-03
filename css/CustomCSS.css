@@ -45,10 +45,13 @@ footer{
 .navbar {
     padding-top: 0px;
     padding-bottom: 0px;
-    background-color: saddlebrown !important;
+/*    background-color: saddlebrown !important;
     background-image:  url("../photos/grass_blackground_around_ 512x512.png") !important;
     background-repeat: repeat-x;
-    background-size: contain;
+    background-size: contain;*/
+    background-image: url('top-image.jpg'), url('bottom-image.jpg');
+    background-repeat: no-repeat;
+    background-position: center top, center bottom;
 }
 
 .footer {
@@ -89,17 +92,16 @@ footer{
 }
 
 
-footer, footer-component {
-    padding-top: 18rem;
-    padding-bottom: 18rem;
-
-}
 
 
 .active {
     background-color: #00779b;
 }
 
+
+.main {
+    height: 100vh;
+}
 
 
 
