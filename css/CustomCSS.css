@@ -118,6 +118,7 @@ aside {
 }*/
 
 /*`md` applies to small devices (landscape phones, less than 768px)*/
+/*
 @media (max-width: 767.98px) {
     .navbar-expand-lg {
         padding-top: 0px;
@@ -128,5 +129,6 @@ aside {
         background-size: cover;
     }
 }
+*/
 
 
