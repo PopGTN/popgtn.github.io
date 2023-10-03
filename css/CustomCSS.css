@@ -28,7 +28,7 @@ html {
 }
 
 .mcfont {
-    font-family: 'Pixeltext', sans-serif;
+    font-family: 'Pixeltext', sans-serif !important;
 }
 
 
@@ -36,10 +36,11 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-image:  url("../photos/dirt-block-256x256.png") !important;
+    background-repeat: repeat;
+    background-size: contain;
 }
-footer{
-    margin-top: auto;
-}
+
 
 .navbar {
     padding-top: 0px;
@@ -52,8 +53,6 @@ footer{
 
 .footer {
     font-family: 'Pixeltext', sans-serif !important;
-    padding-top: 0px;
-    padding-bottom: 0px;
     background-color: saddlebrown !important;
     background-image:  url("../photos/bedrock_521x521.png") !important;
     background-repeat: repeat;
@@ -89,7 +88,6 @@ footer{
 .active {
     background-color: #00779b;
 }
-
 
 .main {
     height: 100vh;
