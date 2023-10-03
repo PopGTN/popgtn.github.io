@@ -61,21 +61,16 @@ footer{
 }
 
 .navbar-nav .nav-link {
-    border-bottom: 2px solid transparent;
+    border-bottom: 4px solid transparent;
     font-family: 'Pixeltext', sans-serif;
+    color: #e7e7e7;
 
 }
-.navbar-nav .nav-link:hover {
-    border-bottom: 2px solid white;
-}
-
-.nav-link {
-    /*background-image: url("../photos/bedrock_521x521.png")  !important;*/
-    border: 2px #00ff0000;
-
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link:hover:active {
+    border-bottom: 4px solid white;
     color: white;
-
 }
+
 
 .nav-link:hover {
     border: 2px rgb(128, 128, 128);
