@@ -51,8 +51,7 @@ body {
     background-size: contain;
 }
 
-.footer {
-    font-family: 'Pixeltext', sans-serif !important;
+footer {
     background-color: saddlebrown !important;
     background-image:  url("../photos/bedrock_521x521.png") !important;
     background-repeat: repeat;
