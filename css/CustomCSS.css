@@ -69,16 +69,13 @@ footer{
 .navbar-nav .nav-link:hover, .navbar-nav .nav-link:hover:active {
     border-bottom: 4px solid white;
     color: white;
-}
-
-
-.nav-link:hover {
-    border: 2px rgb(128, 128, 128);
     background-image: url("../photos/dirt-block-256x256.png") !important;
     background-repeat: repeat-x;
     background-size: contain;
-
 }
+
+
+
 .center {
     display: flex;
     justify-content: center;
