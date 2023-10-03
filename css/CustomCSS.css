@@ -64,13 +64,6 @@ footer{
 
 
 
-.nav-item {
-    /*background-image: url("../photos/bedrock_521x521.png")  !important;*/
-    border: 2px transparent;
-    background-repeat: repeat-x;
-    background-size: contain;
-
-}
 .nav-link {
     /*background-image: url("../photos/bedrock_521x521.png")  !important;*/
     border: 2px transparent;
@@ -81,7 +74,7 @@ footer{
 
 .nav-link:hover {
     border: 2px rgb(128, 128, 128);
-    background-image: url("../photos/stone_521x521.png") !important;
+    background-image: url("../photos/grass_blackground_around_ 512x512.png") !important;
     background-repeat: repeat-x;
     background-size: contain;
 
