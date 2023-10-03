@@ -68,7 +68,7 @@ Custom Fonts
     --navFontSize: 16px;
 
     /*Background on button*/
-    --NavBtnBackGroundimage: url("/photos/BackAround-256x256.png");
+    --NavBtnBackGroundimage: url("/photos/dirt-block-256x256.png");
     --NavBtnImageSize: contain;
     --NavBtnColour: black;
     --NavBtnImageRepeat: repeat-x;
@@ -135,7 +135,7 @@ Custom Fonts
     --mainThirdImageSize: 2%;
 
     /*Side parts of Main*/
-    --mainSecondaryImage: url("/photos/BackAround-256x256.png");
+    --mainSecondaryImage: url("/photos/dirt-block-256x256.png");
     --mainSecondaryImageRepeat: repeat;
     --mainSecondaryImageSize: 10%;
     --mainSecondaryBkGrColor: #ffffff;

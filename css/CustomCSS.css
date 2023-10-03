@@ -68,15 +68,15 @@ footer{
 
 .nav-link {
     /*background-image: url("../photos/bedrock_521x521.png")  !important;*/
-    border: 2px transparent;
-    background-repeat: repeat-x;
-    background-size: contain;
+    border: 2px #00ff0000;
+
+    color: white;
 
 }
 
 .nav-link:hover {
     border: 2px rgb(128, 128, 128);
-    background-image: url("../photos/grass_blackground_around_ 512x512.png") !important;
+    background-image: url("../photos/dirt-block-256x256.png") !important;
     background-repeat: repeat-x;
     background-size: contain;
 
