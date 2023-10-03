@@ -61,19 +61,18 @@ footer{
 }
 
 .navbar-nav .nav-link {
-    border-bottom: 4px solid transparent;
+    border: 4px solid transparent;
     font-family: 'Pixeltext', sans-serif;
     color: #e7e7e7;
 
 }
-.navbar-nav .nav-link:hover, .navbar-nav .nav-link:hover:active {
-    border-bottom: 4px solid white;
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link.active,  .navbar-nav .nav-link.show {
+    border: 4px ridge white;
     color: white;
-    background-image: url("../photos/dirt-block-256x256.png") !important;
+    background-image: url("../photos/stone_521x521.png") !important;
     background-repeat: repeat-x;
     background-size: contain;
 }
-
 
 
 .center {
