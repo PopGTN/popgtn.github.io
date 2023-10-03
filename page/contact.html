@@ -61,47 +61,37 @@
     </div>
 </nav>
 <main id="flex-shrink-0">
-    <div class="row">
-        <div class="main side">
-            <h2>Column 1</h2>
-            <p>Some text..</p>
-        </div>
-        <div class="main middle">
-            <div class="btn-group">
-                <button class="btn btn-primary" type="button">Button</button>
-                <div class="btn-group">
-                    <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" type="button">
-                        Dropdown
-                    </button>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Separated link</a>
-                    </div>
-                </div>
+    <div class="row row-cols-3">
+        <aside class="col-12 col-xl-3">
+            <div class="card-aside">
+                <h2>Column 1</h2>
+                <p>Some text..</p>
             </div>
+        </aside>
+        <section class="col-12 col-xl-6 bg-white main">
             <h2>Column 2</h2>
             <p>Some text..</p>
-        </div>
-        <div class="main side">
-            <h2>Column 3</h2>
-            <p>Some text..</p>
-        </div>
+        </section>
+        <aside class="col-12 col-xl-3">
+            <div class="card-aside">
+                <h2>Column 1</h2>
+                <p>Some text..</p>
+            </div>
+        </aside>
     </div>
 </main>
-<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 px-5 border-top mt-auto">
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 px-5 mt-auto">
     <div class="col-md-4 d-flex align-items-center">
-        <a class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1" href="/">
+        <a class="mb-3 me-2 mb-md-0 text-white text-decoration-none lh-1 mcfont" href="/">
             JoshuaMC
         </a>
-        <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+        <span class="mb-3 mb-md-0 text-white mcfont">© 2023 Company, Inc</span>
     </div>
 
-    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3"><a class="text-muted" href="#">Twitter</use></svg></a></li>
-        <li class="ms-3"><a class="text-muted" href="#">Instagram</a></li>
-        <li class="ms-3"><a class="text-muted" href="#">Facebook</a></li>
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex mcfont">
+        <li class="ms-3"><a class="text-white" href="#">Twitter</use></svg></a></li>
+        <li class="ms-3"><a class="text-white" href="#">Instagram</a></li>
+        <li class="ms-3"><a class="text-white" href="#">Facebook</a></li>
     </ul>
 </footer>
 </body>
