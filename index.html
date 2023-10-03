@@ -22,12 +22,19 @@
             text-align: center;
             justify-content: center;
             color: white;
-            background: rgba(137, 108, 88, 0) url("/photos/headerbackgroundimage.jpg") no-repeat center;
+            background: rgba(137, 108, 88, 0) url("/photos/headerbackgroundimage.jpg") repeat center;
             font-size: 30px;
             padding-top: 10%;
             padding-bottom: 20%;
-            margin-bottom: 20px;
 
+        }
+
+        div.header > div {
+        }
+
+        /*Header title*/
+        div.header div > * {
+            margin: 0 !important;
         }
 
         .card {
@@ -53,6 +60,12 @@
                  background-size: 100% 100%;
              }
          }*/
+
+        @media screen and (min-width: 2560px) {
+            .header {
+                background-size: 100% 100%;
+            }
+        }
     </style>
 </head>
 <body>
@@ -91,7 +104,7 @@
     </div>
 </nav>
 <main>
-    <div class="container-fluid object-fit-fill center">
+    <div class="header mcfont">
         <div>
             <h2>Joshua Mckenna's Website</h2>
             <p>Welcome to my Website</p>
