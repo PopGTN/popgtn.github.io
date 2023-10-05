@@ -112,7 +112,10 @@ aside, .aside {
 }
 
 .main {
-    height: 100vh;
+  background: white;
+}
+.fill-page {
+  min-height: 100vh;
 }
 
 
