@@ -71,7 +71,7 @@ footer {
 }
 
 .navbar-nav .nav-link:hover, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-    border: 5px ridge white;
+    /*border: 5px ridge white;*/
     color: white;
     /*background-image: url("../photos/stone_521x521.png") !important;*/
     background-repeat: repeat-x;
