@@ -95,12 +95,14 @@ aside {
     background-image: url("../photos/dirt-block-256x256.png") !important;
     background-repeat: repeat;
     background-size: calc(100vh * 0.0842);
-    padding-right: calc(var(--bs-gutter-x) * .5);
-    padding-left: calc(var(--bs-gutter-x) * .5);
+    padding-right: 0px !important;
+    padding-left: 0px !important;
 }
 
 .aside-card {
     background: white;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
 }
 
 .main {
@@ -132,10 +134,10 @@ aside {
     }
 
     /* Change background image when the navbar is toggled */
-    .navbar-toggler[aria-expanded="true"] + .navbar-collapse {
-        background-image: url('photos/grass_blackground_around_ 512x512.png');
-        background-repeat: no-repeat;
-        background-size: cover;
+    .navbar-toggler[aria-expanded="true"] /*+ .navbar-collapse*/ {
+        background-image: url('photos/grass_blackground_around_ 512x512.png') !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
     }
 }
 
