@@ -64,7 +64,7 @@ footer {
 }
 
 .navbar-nav .nav-link {
-    border: 5px solid transparent;
+    /*border: 5px solid transparent;*/
     font-family: 'Pixeltext', sans-serif;
     color: #dcdcdc;
 
@@ -73,7 +73,7 @@ footer {
 .navbar-nav .nav-link:hover, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     border: 5px ridge white;
     color: white;
-    background-image: url("../photos/dirt-block-256x256.png") !important;
+    /*background-image: url("../photos/stone_521x521.png") !important;*/
     background-repeat: repeat-x;
     background-size: contain;
 }
@@ -123,17 +123,17 @@ aside, .aside {
 
 /*`md` applies to small devices (landscape phones, less than 768px)*/
 @media (max-width: 767.98px) {
-    .navbar {
+ /*   .navbar {
         padding-top: 0px;
         padding-bottom: 0px;
         background-color: saddlebrown;
         background-image: url('photos/grass_blackground_around_ 512x512.png');
         background-repeat: repeat;
         background-size: contain;
-    }
+    }*/
 
     /* Change background image when the navbar is toggled */
-    nav:has(div.show) {
+    .navbar:has(div.show) {
         background-image: url('photos/grass_blackground_around_ 512x512.png') !important;
         background-repeat: no-repeat !important;
         background-size: cover !important;
