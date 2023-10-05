@@ -106,7 +106,7 @@ aside, .aside {
     margin-left: calc(var(--bs-gutter-x) * .5);
 }
 .aside-card > p:last-child{
-    margin-bottom: 0px !important;
+    margin-bottom: 0 !important;
 }
 
 .main {
