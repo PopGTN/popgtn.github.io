@@ -140,6 +140,12 @@ aside, .aside {
         background-repeat: no-repeat !important;
         background-size: cover !important;
     }
+
+    .aside-card {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
 }
 
 
