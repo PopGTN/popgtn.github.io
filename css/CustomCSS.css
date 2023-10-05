@@ -95,14 +95,15 @@ aside {
     background-image: url("../photos/dirt-block-256x256.png") !important;
     background-repeat: repeat;
     background-size: calc(100vh * 0.0842);
-    padding-right: 0px !important;
-    padding-left: 0px !important;
+
 }
 
 .aside-card {
     background: white;
     padding-right: calc(var(--bs-gutter-x) * .5);
     padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: calc(var(--bs-gutter-x) * .5);
+    margin-left: calc(var(--bs-gutter-x) * .5);
 }
 
 .main {
