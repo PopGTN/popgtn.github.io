@@ -141,6 +141,10 @@ aside, .aside {
     .aside-section {
         padding-bottom: 0px !important;
     }
+    .aside > p {
+        margin-bottom: 0px!important;
+    }
+
 }
 /*`xl` applies to large devices (desktops, less than 1200px)*/
 @media (max-width: 1199.98px) {}
