@@ -85,8 +85,7 @@ footer {
     /*background: #FFCEC2;*/
 }
 
-aside , .aside {
-    /*margin: 0px;*/
+aside, .aside {
     padding: 0px !important;
 }
 
@@ -96,6 +95,7 @@ aside , .aside {
     background-repeat: repeat;
     background-size: calc(100vh * 0.0842);
     padding-bottom: calc(var(--bs-gutter-x) * .5);
+    min-height: 10%;
 }
 
 .aside-card {
