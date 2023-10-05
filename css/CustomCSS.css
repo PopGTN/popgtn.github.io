@@ -131,6 +131,7 @@ aside, .aside {
     .aside-card {
         margin-right: 0px !important;
         margin-left: 0px !important;
+        margin-bottom: 0px !important;
     }
 
 }
