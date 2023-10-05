@@ -95,7 +95,7 @@ aside , .aside {
     background-image: url("../photos/dirt-block-256x256.png") !important;
     background-repeat: repeat;
     background-size: calc(100vh * 0.0842);
-    margin-bottom: calc(var(--bs-gutter-x) * .5);
+    padding-bottom: calc(var(--bs-gutter-x) * .5);
 }
 
 .aside-card {
