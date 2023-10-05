@@ -105,6 +105,9 @@ aside, .aside {
     margin-right: calc(var(--bs-gutter-x) * .5);
     margin-left: calc(var(--bs-gutter-x) * .5);
 }
+.aside-card > p:last-child{
+    margin-bottom: 0px !important;
+}
 
 .main {
     height: 100vh;
@@ -138,7 +141,7 @@ aside, .aside {
         margin-right: 0px !important;
         margin-left: 0px !important;
     }
-    .aside-section {
+    .aside-section  {
         padding-bottom: 0px !important;
     }
     .aside > p {
