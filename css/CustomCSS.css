@@ -123,18 +123,8 @@ aside, .aside {
 
 /*`md` applies to small devices (landscape phones, less than 768px)*/
 @media (max-width: 767.98px) {
- /*   .navbar {
-        padding-top: 0px;
-        padding-bottom: 0px;
-        background-color: saddlebrown;
-        background-image: url('photos/grass_blackground_around_ 512x512.png');
-        background-repeat: repeat;
-        background-size: contain;
-    }*/
-
     /* Change background image when the navbar is toggled */
-    .navbar:has(div.show) {
-        background-image: url('photos/grass_blackground_around_ 512x512.png') !important;
+    nav:has(div.show) {
         background-repeat: no-repeat !important;
         background-size: cover !important;
         background-color: black;
