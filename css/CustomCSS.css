@@ -73,7 +73,7 @@ footer {
 .navbar-nav .nav-link:hover, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     border: 5px ridge white;
     color: white;
-    background-image: url("../photos/grass_blackground_around_ 512x512.png") !important;
+    background-image: url("../photos/dirt-block-256x256.png") !important;
     background-repeat: repeat-x;
     background-size: contain;
 }
