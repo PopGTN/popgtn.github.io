@@ -103,7 +103,6 @@ aside, .aside {
     padding-left: calc(var(--bs-gutter-x) * .5);
     margin-right: calc(var(--bs-gutter-x) * .5);
     margin-left: calc(var(--bs-gutter-x) * .5);
-    margin-bottom: calc(var(--bs-gutter-x) * .5);
 }
 
 .main {
@@ -131,9 +130,10 @@ aside, .aside {
     .aside-card {
         margin-right: 0px !important;
         margin-left: 0px !important;
-        margin-bottom: 0px !important;
     }
-
+    .aside-section {
+        padding-bottom: 0px;
+    }
 }
 
 
