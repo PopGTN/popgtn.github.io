@@ -81,7 +81,7 @@
 
         // Sort repositories by last modified
 
-        if (repositories.length <= 0) {
+        if (currentPageg <= 0) {
             // Handle the case where there are no repositories to display
             /*repositoriesList.innerHTML = '<p>No repositories to display.</p>';*/
             previousPage()
