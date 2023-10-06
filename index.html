@@ -88,10 +88,14 @@
                         Socials
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end">
-                        <li><a class="dropdown-item" target="_blank" href="https://discord.gg/Bxy6sN7N7b">Discord</a></li>
-                        <li><a class="dropdown-item" target="_blank" href="http://twitter.com/popgoesthenoobs">X (Formally Twitter) </a></li>
-                        <li><a class="dropdown-item" target="_blank" href="https://www.instagram.com/offical_joshua_mckenna/">Instagram</a></li>
-                        <li><a class="dropdown-item" target="_blank" href="https://www.linkedin.com/in/joshua-mckenna-a123a2258/">Linkedin</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="https://discord.gg/Bxy6sN7N7b">Discord</a>
+                        </li>
+                        <li><a class="dropdown-item" target="_blank" href="http://twitter.com/popgoesthenoobs">X
+                            (Formally Twitter) </a></li>
+                        <li><a class="dropdown-item" target="_blank"
+                               href="https://www.instagram.com/offical_joshua_mckenna/">Instagram</a></li>
+                        <li><a class="dropdown-item" target="_blank"
+                               href="https://www.linkedin.com/in/joshua-mckenna-a123a2258/">Linkedin</a></li>
                     </ul>
                 </li>
 
@@ -104,7 +108,7 @@
     <div
             class="p-5 text-center bg-image"
             style="
-      background-image: url('photos/header.webp');
+      background-image: url('photos/headerbackgroundimage.jpg');
       height: 400px;
       background-size: cover;
       background-position: center;
@@ -113,8 +117,8 @@
         <div class="mask"><!--style="background-color: rgba(0, 0, 0, 0.6);">-->
             <div class="d-flex justify-content-center align-items-center h-100">
                 <div class="text-white">
-                    <h1 class="mb-3">Heading</h1>
-                    <h4 class="mb-3">Subheading</h4>
+                    <h1 class="mb-3">Joshua Mckenna's</h1>
+                    <h4 class="mb-3">Website</h4>
                 </div>
             </div>
         </div>
@@ -124,22 +128,39 @@
         <div class="row row-cols-3 px-0">
             <aside class="col-12 col-lg-3">
                 <div class="aside-section">
-                    <div class="aside-card">
+                    <!--<div class="aside-card">
                         <h2>Column 1</h2>
                         <p>Some text..</p>
-                    </div>
+                    </div>-->
                 </div>
             </aside>
             <main class="col-12 col-lg-6 bg-white main">
-                <h2>Column 2</h2>
-                <p>Some text..</p>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Repository Name</h5>
+                        <p class="card-text">Description of the repository.</p>
+                        <a href="Repository URL" class="btn btn-primary">View Repository</a>
+                    </div>
+                </div>
+                <div id="repo-list" class="row">
+                    <!-- The repositories will be appended here -->
+                </div>
+
+                <nav>
+                    <ul id="pagination" class="pagination justify-content-center">
+                        <!-- Pagination links will be appended here -->
+                    </ul>
+                </nav>
+
+                <script src="js/Github.js" />
+
             </main>
             <aside class="col-12 col-lg-3">
                 <div class="aside-section">
-                    <div class="aside-card">
+                   <!-- <div class="aside-card">
                         <h2>Column 3</h2>
                         <p>Some text..</p>
-                    </div>
+                    </div>-->
                 </div>
             </aside>
         </div>
@@ -148,16 +169,19 @@
 <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 px-5 mt-auto">
     <div class="col-md-4 d-flex align-items-center">
         <a class="mb-3 me-2 mb-md-0 text-white text-decoration-none lh-1 mcfont" href="/">
-            <img src="../photos/logo.png" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
+            <img src="../photos/logo.webp" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
             <span class="mb-3 mb-md-0 text-white mcfont">© 2023 Company, Inc</span>
         </a>
 
     </div>
 
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex mcfont">
-        <li class="ms-3"><a class="text-white" target="_blank" href="http://twitter.com/popgoesthenoobs">Twitter</use></svg></a></li>
-        <li class="ms-3"><a class="text-white" target="_blank" href="https://www.instagram.com/offical_joshua_mckenna/">Instagram</a></li>
-        <li class="ms-3"><a class="text-white" target="_blank" href="https://www.linkedin.com/in/joshua-mckenna-a123a2258/">Linkedin</a></li>
+        <li class="ms-3"><a class="text-white" target="_blank"
+                            href="http://twitter.com/popgoesthenoobs">Twitter</use></svg></a></li>
+        <li class="ms-3"><a class="text-white" target="_blank" href="https://www.instagram.com/offical_joshua_mckenna/">Instagram</a>
+        </li>
+        <li class="ms-3"><a class="text-white" target="_blank"
+                            href="https://www.linkedin.com/in/joshua-mckenna-a123a2258/">Linkedin</a></li>
         <li class="ms-3"><a class="text-white" target="_blank" href="https://discord.gg/Bxy6sN7N7b">Discord</a></li>
     </ul>
 </footer>
