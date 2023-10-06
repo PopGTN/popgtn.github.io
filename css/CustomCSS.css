@@ -110,7 +110,7 @@ aside, .aside {
     margin-bottom: 0 !important;
 }
 
-.main {
+main {
   background: white;
 }
 .fill-page {
@@ -118,7 +118,18 @@ aside, .aside {
 }
 
 
+.image-container {
+    position: relative;
+}
 
+.text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background */
+    color: white; /* Text color */
+    padding: 20px;
+}
 
 /*`sm` applies to x-small devices (portrait phones, less than 576px)*/
 /*@media (max-width: 575.98px) {}*/
