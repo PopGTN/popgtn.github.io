@@ -39,6 +39,7 @@
             .then((data) => displayRepositories(data));
 
 
+
     }
 
     // Function to handle the "Next" button
@@ -80,7 +81,12 @@
 
         // Sort repositories by last modified
 
-        if (repositories.length === 0) {
+        if (repositories.length <= 0) {
+            // Handle the case where there are no repositories to display
+            /*repositoriesList.innerHTML = '<p>No repositories to display.</p>';*/
+            previousPage()
+            repositoriesList.innerHTML = 'Error Something Went Wrong!';
+        } else  if (repositories.length === 0) {
             // Handle the case where there are no repositories to display
             /*repositoriesList.innerHTML = '<p>No repositories to display.</p>';*/
             previousPage()
