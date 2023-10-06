@@ -1,5 +1,5 @@
 const username = 'PopGTN'; // Your GitHub username
-const perPage = 12; // Number of repositories per page
+const perPage = 3; // Number of repositories per page
 let currentPage = 1; // Current page number
 
 const repoList = document.getElementById('repo-list');

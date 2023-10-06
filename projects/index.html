@@ -27,7 +27,7 @@
 <body>
 <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
     <div class="container-fluid">
-        <a class="navbar-brand mcfont text-light" href="#">
+        <a class="navbar-brand mcfont text-light" href="/">
             <img src="../photos/logo.webp" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
             JoshuaMC
         </a>
@@ -37,11 +37,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="https://github.com/PopGTN" target="_blank">Projects</a>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="/page/contact.html">Contact</a></li>
-                <li class="nav-item"><a class="nav-link" href="/page/About-Me.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="/Contact/">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="/About/">About</a></li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                        aria-expanded="false">
@@ -72,8 +72,23 @@
             </aside>
             <main class="col-12 col-lg-6 bg-white main fill-page">
                 <section class="pt-2">
-                    <p>Here are some of my project that I'm working on! <a class="link-primary" href="https://github.com/PopGTN" target="_blank">My Github</a></p>
+                    <p>Here are some of my project that I'm working on! <a class="link-primary"
+                                                                           href="https://github.com/PopGTN"
+                                                                           target="_blank">My Github</a>
+                    </p>
+                    <div>
+                        <div id="repo-list" class="row">
+                            <!-- The repositories will be appended here -->
+                        </div>
 
+                        <nav>
+                            <ul id="pagination" class="pagination justify-content-center">
+                                <!-- Pagination links will be appended here -->
+                            </ul>
+                        </nav>
+
+                        <script src="../js/Github.js"/>
+                    </div>
                 </section>
             </main>
             <aside class="col-12 col-lg-3">
