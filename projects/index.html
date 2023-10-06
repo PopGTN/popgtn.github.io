@@ -2,65 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>JoshuaMC | Home</title>
+    <title>Joshua Mckenna's Website | This is a website about Joshua Mckenna</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--    <script src="/components/navbar.js" type="text/javascript" defer></script>
-        <script src="/components/footer.js" type="text/javascript" defer></script>-->
-    <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/CustomCSS.css">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/CustomCSS.css" rel="stylesheet">
     <style>
         /* Header/Logo Title */
         .header {
-            font-family: Pixeltext, sans-serif;
-            margin: auto;
-
-            background-size: contain;
             padding: 60px;
             text-align: center;
-            justify-content: center;
+            background: #1abc9c;
             color: white;
-            background: rgba(137, 108, 88, 0) url("/photos/headerbackgroundimage.jpg") repeat center;
             font-size: 30px;
-            padding-top: 10%;
-            padding-bottom: 20%;
-
         }
 
         /*Header title*/
-        div.header div > * {
-            margin: 0 !important;
-        }
-
-        .card {
-            margin: 5px;
-            padding-left: 0px;
-            padding-right: 0px;
-
-        }
-
-        .card-link {
-            color: #000000 !important;
-            text-decoration-line: none;
-        }
-
-
-        /*Header title*/
-        div.header div > * {
-            margin: 0 !important;
-        }
-
-        /* @media screen and (min-width: 2560px) {
-             .header {
-                 background-size: 100% 100%;
-             }
-         }*/
-
-        @media screen and (min-width: 2560px) {
-            .header {
-                background-size: 100% 100%;
-            }
+        header p, header h1 {
+            margin: 0px;
         }
     </style>
 </head>
@@ -78,7 +38,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="/projects">Projects</a>
+                <li class="nav-item"><a class="nav-link" href="https://github.com/PopGTN" target="_blank">Projects</a>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="/page/contact.html">Contact</a></li>
                 <li class="nav-item"><a class="nav-link" href="/page/About-Me.html">About</a></li>
@@ -104,48 +64,20 @@
     </div>
 </nav>
 <div>
-    <!-- Background image -->
-    <div
-            class="p-5 text-center bg-image"
-            style="
-      background-image: url('photos/headerbackgroundimage.jpg');
-      height: 400px;
-      background-size: cover;
-      background-position: center;
-    "
-    >
-        <div class="mask"><!--style="background-color: rgba(0, 0, 0, 0.6);">-->
-            <div class="d-flex justify-content-center align-items-center h-100">
-                <div class="text-white">
-                    <h1 class="mb-3">Joshua Mckenna's</h1>
-                    <h4 class="mb-3">Website</h4>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Background image -->
     <div class="container-fluid flex-shrink-0">
         <div class="row row-cols-3 px-0">
             <aside class="col-12 col-lg-3">
                 <div class="aside-section">
-                    <!--<div class="aside-card">
-                        <h2>Column 1</h2>
-                        <p>Some text..</p>
-                    </div>-->
                 </div>
             </aside>
-            <main class="col-12 col-lg-6 bg-white main">
-                <h1>About me</h1>
-                <p>
+            <main class="col-12 col-lg-6 bg-white main fill-page">
+                <section class="pt-2">
+                    <p>Here are some of my project that I'm working on! <a class="link-primary" href="https://github.com/PopGTN" target="_blank">My Github</a></p>
 
-                </p>
+                </section>
             </main>
             <aside class="col-12 col-lg-3">
                 <div class="aside-section">
-                    <!-- <div class="aside-card">
-                         <h2>Column 3</h2>
-                         <p>Some text..</p>
-                     </div>-->
                 </div>
             </aside>
         </div>
