@@ -29,9 +29,9 @@ backaround-image:(Image1, image2);
     <div id="navLinks">
         <a href="index.html" class="active">Home</a>
         <a href="#">Projects</a>
-        <a href="#">Contact</a>
+        <a href="#">contact</a>
         <a href="#">Updates</a>
-        <a href="About-Me.html">About</a>
+        <a href="about-Me.html">about</a>
     </div>
 </nav>
 <main>
