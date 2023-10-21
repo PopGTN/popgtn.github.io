@@ -38,11 +38,18 @@ body {
 main {
     background: white;
 }
-
 /*need to keep footer at bottom.*/
-.fill-page {
+.mainBody {
     flex: 1 0 auto;
 }
+
+.fill-page {
+    min-height: 100vh;
+}
+.fill-div {
+    min-height: 100%;
+}
+
 
 
 .navbar {
