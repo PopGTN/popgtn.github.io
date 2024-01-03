@@ -102,6 +102,27 @@ footer {
     /*background: #FFCEC2;*/
 }
 
+.minecraft-main-button {
+    margin: auto;
+    padding: 15px 30px;
+    border: none;
+    font-family: Noto Sans,sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-transition: all .25s,opacity .75s .5s;
+    transition: all .25s,opacity .75s .5s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    pointer-events: all;
+}
+
 aside, .aside {
     padding: 0px !important;
 }
