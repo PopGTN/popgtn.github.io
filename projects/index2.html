@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Joshua Mckenna's Website | This is a website about Joshua Mckenna</title>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/CustomCSS.css" rel="stylesheet">
+    <style>
+        /* Header/Logo Title */
+        .header {
+            padding: 60px;
+            text-align: center;
+            background: #1abc9c;
+            color: white;
+            font-size: 30px;
+        }
+
+        /*Header title*/
+        header p, header h1 {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand mcfont text-light" href="/">
+            <img src="../photos/logo.webp" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
+            JoshuaMC
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/projects/">Projects</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="/contact/">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        Socials
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" target="_blank" href="https://discord.gg/Bxy6sN7N7b">Discord</a>
+                        </li>
+                        <li><a class="dropdown-item" target="_blank" href="http://twitter.com/popgoesthenoobs">X
+                            (Formally Twitter) </a></li>
+                        <li><a class="dropdown-item" target="_blank"
+                               href="https://www.instagram.com/offical_joshua_mckenna/">Instagram</a></li>
+                        <li><a class="dropdown-item" target="_blank"
+                               href="https://www.linkedin.com/in/joshua-mckenna-a123a2258/">Linkedin</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<div>
+    <div class="p-3 text-center bg-light" style="">
+        <h1 class="mb-3">My Projects</h1>
+        <p>Here are some of my project that I'm working on <a class="link-primary" href="https://github.com/PopGTN"
+                                                              target="_blank">my GitHub</a>!
+        </p>
+    </div>
+    <div class="container-fluid flex-shrink-0">
+        <div class="row row-cols-3 px-0">
+            <aside class="col-12 col-lg-3">
+                <div class="aside-section">
+                </div>
+            </aside>
+            <main class="col-12 col-lg-6 bg-white main fill-div">
+                <section class="pt-5">
+
+                    <div>
+                        <div class="container">
+                            <div class="row" id="repositories-list"></div>
+                        </div>
+                        <div class="container mt-4">
+                            <ul class="pagination justify-content-center" id="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="javascript:void(0);"
+                                       onclick="previousPage()">Previous</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="javascript:void(0);" onclick="nextPage()">Next</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <script src="../js/github.js"/>
+                </section>
+            </main>
+            <aside class="col-12 col-lg-3">
+                <div class="aside-section">
+                </div>
+            </aside>
+        </div>
+    </div>
+</div>
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 px-5 mt-auto">
+    <div class="col-md-4 d-flex align-items-center">
+        <a class="mb-3 me-2 mb-md-0 text-white text-decoration-none lh-1 mcfont" href="/">
+            <img src="../photos/logo.webp" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
+            <span class="mb-3 mb-md-0 text-white mcfont">© 2023 JoshuaMC, Inc</span>
+        </a>
+
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex mcfont">
+        <li class="ms-3"><a class="text-white" target="_blank"
+                            href="http://twitter.com/popgoesthenoobs">Twitter</use></svg></a></li>
+        <li class="ms-3"><a class="text-white" target="_blank" href="https://www.instagram.com/offical_joshua_mckenna/">Instagram</a>
+        </li>
+        <li class="ms-3"><a class="text-white" target="_blank"
+                            href="https://www.linkedin.com/in/joshua-mckenna-a123a2258/">Linkedin</a></li>
+        <li class="ms-3"><a class="text-white" target="_blank" href="https://discord.gg/Bxy6sN7N7b">Discord</a></li>
+    </ul>
+</footer>
+<script src="/js/bootstrap/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
